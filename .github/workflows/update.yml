@@ -2,28 +2,13 @@ name: update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '6 0 * * *'
 jobs:
   main:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: tibdex/github-app-token@v1.8.2
-        if: ${{ !env.ACT }}
-        id: create-app-token
-        with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.APP_PRIVATE_KEY }}
-      - uses: actions/checkout@v3
-        if: ${{ !env.ACT }}
-        with:
-          token: ${{ steps.create-app-token.outputs.token }}
-      - name: setup git
-        run: |
-          git config user.name "iptv-bot[bot]"
-          git config user.email "84861620+iptv-bot[bot]@users.noreply.github.com"
       - uses: actions/setup-node@v3
-        if: ${{ !env.ACT }}
         with:
           node-version: 18
           cache: 'npm'
@@ -32,18 +17,17 @@ jobs:
       - name: check *.channels.xml
         run: |
           npm run channels:lint
-      - name: generate .api/guides.json
-        run: npm run api:generate
-      - run: git status
-      - name: move .api/guides.json to iptv-org/api
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
+      - name: generate guidatv.sky.it
+        run: npm run grab -- --channels=sites/guidatv.sky.it/guidatv.sky.it.channels.xml --output=guidatv.sky.it.guide.xml --maxConnections=3 --gzip
+      - name: Publish Release
+        uses: ncipollo/release-action@v1
         with:
-          repository-name: iptv-org/api
-          branch: gh-pages
-          folder: .api
-          token: ${{ steps.create-app-token.outputs.token }}
-          git-config-name: iptv-bot[bot]
-          git-config-email: 84861620+iptv-bot[bot]@users.noreply.github.com
-          commit-message: '[Bot] Deploy to iptv-org/api'
-          clean: false
+          artifacts: "*.guide.xml,*.guide.xml.gz"
+          allowUpdates: true
+          generateReleaseNotes: false
+          replacesArtifacts: true
+          removeArtifacts: true
+          prerelease: false
+          draft: false
+          makeLatest: true
+          tag: 1.0.0

@@ -5,26 +5,47 @@ module.exports = {
   days: 2,
   url: function ({ date, channel }) {
     const [env, id] = channel.site_id.split('#')
-    return `https://apid.sky.it/gtv/v1/events?from=${date.format('YYYY-MM-DD')}T00:00:00Z&to=${date
-      .add(1, 'd')
-      .format('YYYY-MM-DD')}T00:00:00Z&pageSize=999&pageNum=0&env=${env}&channels=${id}`
+    return `https://atlantis.epgsky.com/as/schedule/${date.format('YYYYMMDD')}/${id}`
   },
-  parser: function ({ content }) {
+  request: {
+    headers: function(context) {
+      return {
+        'x-skyott-proposition': 'SKYQ',
+        'x-skyott-provider': 'SKY',
+        'x-skyott-territory': 'IT',
+        'x-skyott-platform': 'PC',
+        'x-skyott-device': 'COMPUTER',
+        'x-skyott-agent': 'skyq.computer.pc',
+        'User-Agent': 'Mozilla/5.0 (SKYQPC:24.1:IT)',
+        'Accept-Encoding': 'deflate',
+      }
+    },
+    responseType: 'arraybuffer',
+    decompress: true,
+  },
+  parser: function (context) {
+    // console.log(context.content)
+    let chunkedData = context.content
+      .replaceAll(/\r\n0.*\r\n/g, "")
+      .split("\r\n")
+      .filter(x => x.startsWith("{"))
+    // console.log(chunkedData)
     const programs = []
-    const data = JSON.parse(content)
-    const items = data.events
+    const data = JSON.parse(chunkedData.slice(-1).pop())
+    // console.log(data)
+    const items = data.schedule[0].events
     if (!items.length) return programs
     items.forEach(item => {
       programs.push({
-        title: item.eventTitle,
-        description: item.eventSynopsis,
-        category: parseCategory(item),
+        title: item.t,
+        description: item.sy,
+        // category: parseCategory(item),
         season: parseSeason(item),
         episode: parseEpisode(item),
         start: parseStart(item),
         stop: parseStop(item),
-        url: parseURL(item),
-        image: parseImage(item)
+        // url: parseURL(item),
+        // image: parseImage(item)
       })
     })
 
@@ -32,27 +53,60 @@ module.exports = {
   },
   async channels() {
     const axios = require('axios')
-    const cheerio = require('cheerio')
+    // const cheerio = require('cheerio')
 
     const data = await axios
-      .get(`https://guidatv.sky.it/canali`)
-      .then(r => r.data)
-      .catch(console.log)
+      .get(`https://atlantis.epgsky.com/as/services/65523/0`, {
+        headers: {
+          'x-skyott-proposition': 'SKYQ',
+          'x-skyott-provider': 'SKY',
+          'x-skyott-territory': 'IT',
+          'x-skyott-platform': 'PC',
+          'x-skyott-device': 'COMPUTER',
+          'x-skyott-agent': 'skyq.computer.pc',
+          'User-Agent': 'Mozilla/5.0 (SKYQPC:24.1:IT)',
+          'Accept-Encoding': 'deflate',
+        },
+        responseType: 'json',
+      })
+      .then(response => {
+        // console.log(response.data);
+        return response.data;
+      })
+      .catch(console.log);
 
-    const $ = cheerio.load(data)
+    // console.log("data:", data)
+    // const $ = cheerio.load(data)
 
     let channels = []
-    $('.c-channelsCard__container').each((i, el) => {
-      const name = $(el).find('.c-channelsCard__title').text()
-      const url = $(el).find('.c-channelsCard__link').attr('href')
-      const [, channelId] = url.match(/\/(\d+)$/)
-
-      channels.push({
-        lang: 'it',
-        site_id: `DTH#${channelId}`,
-        name
+    if (data && data["services"]) {
+      channels = data["services"].map(x => {
+        let channelNumber = Number(x["c"])
+        let channelName = x["t"].replaceAll('HD', '').trim()
+        if (channelNumber > 250 && channelNumber < 260) {
+          channelName = channelName + " " + channelNumber
+        }
+        let channelId = channelName.replaceAll(' ', '').toLowerCase() + ".it"
+        console.log("channelId:", channelId)
+        return {
+          'lang': 'it',
+          'site_id': `DTH#${x["sid"]}`,
+          'name': channelName,
+          'xmltv_id': channelId,
+        }
       })
-    })
+    }
+    // $('.c-channelsCard__container').each((i, el) => {
+    //   const name = $(el).find('.c-channelsCard__title').text()
+    //   const url = $(el).find('.c-channelsCard__link').attr('href')
+    //   const [, channelId] = url.match(/\/(\d+)$/)
+
+    //   channels.push({
+    //     lang: 'it',
+    //     site_id: `DTH#${channelId}`,
+    //     name
+    //   })
+    // })
 
     return channels
   }
@@ -68,11 +122,11 @@ function parseCategory(item) {
 }
 
 function parseStart(item) {
-  return item.starttime ? dayjs(item.starttime) : null
+  return item.st ? dayjs.unix(item.st) : null
 }
 
 function parseStop(item) {
-  return item.endtime ? dayjs(item.endtime) : null
+  return item.st && item.d ? dayjs.unix(item.st).add(item.d, 's') : null
 }
 
 function parseURL(item) {
@@ -86,13 +140,13 @@ function parseImage(item) {
 }
 
 function parseSeason(item) {
-  if (!item.content.seasonNumber) return null
-  if (String(item.content.seasonNumber).length > 2) return null
-  return item.content.seasonNumber
+  if (!item.seasonnumber) return null
+  if (String(item.seasonnumber).length > 2) return null
+  return item.seasonnumber
 }
 
 function parseEpisode(item) {
-  if (!item.content.episodeNumber) return null
-  if (String(item.content.episodeNumber).length > 3) return null
-  return item.content.episodeNumber
+  if (!item.episodenumber) return null
+  if (String(item.episodenumber).length > 3) return null
+  return item.episodenumber
 }
