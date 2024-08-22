@@ -86,7 +86,7 @@ module.exports = {
         if (channelNumber > 250 && channelNumber < 260) {
           channelName = channelName + " " + channelNumber
         }
-        let channelId = channelName.replaceAll(' ', '').toLowerCase() + ".it"
+        let channelId = channelName.replaceAll(' ', '') + ".it"
         console.log("channelId:", channelId)
         return {
           'lang': 'it',

@@ -2,23 +2,27 @@ name: update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0 * * *'
+    - cron: '3 0 * * *'
 jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: szenius/set-timezone@v2.0
         with:
-          node-version: 18
+          timezoneLinux: "Europe/Rome"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
           cache: 'npm'
       - name: install dependencies
         run: npm install
       - name: check *.channels.xml
         run: |
           npm run channels:lint
-      - name: generate guidatv.sky.it
-        run: npm run grab -- --channels=sites/guidatv.sky.it/guidatv.sky.it.channels.xml --output=guidatv.sky.it.guide.xml --maxConnections=3 --gzip
+      - name: guidatv.sky.it
+        run: npm run grab -- --site=guidatv.sky.it --output=guidatv.sky.it.guide.xml --maxConnections=3 --gzip
+      - uses: actions4git/add-commit-push@v1
       - name: Publish Release
         uses: ncipollo/release-action@v1
         with:
