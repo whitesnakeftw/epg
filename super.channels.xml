@@ -39,11 +39,11 @@
   <channel site="sky.com" lang="en" xmltv_id="TNTSports2.uk" site_id="3663">TNT Sports 2</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports1ROIHD.ie" site_id="2282/premier-sports-1-roi-hd">Premier Sports 1 ROI HD</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports2ROIHD.ie" site_id="2283/premier-sports-2-roi-hd">Premier Sports 2 ROI HD</channel>
-  <channel site="entertainment.ie" lang="en" xmltv_id="LaLigaTV.es" site_id="la-liga-tv">La Liga TV</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZN1.es" site_id="M1SD">DAZN 1</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZN2.es" site_id="M2SD">DAZN 2</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZN3.es" site_id="DAZN3">DAZN 3</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZN4.es" site_id="DAZN4">DAZN 4</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZNF1.es" site_id="MVF1">DAZN F1</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZNLaLiga.es" site_id="DAZNLI">DAZN LALIGA</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTV.es" site_id="DAZNLI">La Liga TV</channel>
 </channels>
