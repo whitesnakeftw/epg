@@ -20,7 +20,7 @@ jobs:
       - name: check *.channels.xml
         run: |
           npm run channels:lint
-      - name: guidatv.sky.it
+      - name: superguide
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=3 --gzip
       - uses: actions4git/add-commit-push@v1
       - name: Publish Release
