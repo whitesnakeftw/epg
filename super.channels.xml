@@ -22,6 +22,18 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportTennis.it" site_id="DTH#559">Sky Sport Tennis</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportUno.it" site_id="DTH#23">Sky Sport Uno</channel>
   <channel site="raiplay.it" lang="it" xmltv_id="Rai1.it" site_id="rai-1">RAI 1</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="Rai2.it" site_id="rai-2">RAI 2</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="Rai3.it" site_id="rai-3">RAI 3</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="Rai4.it" site_id="rai-4">RAI 4</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="Rai5.it" site_id="rai-5">RAI 5</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiGulp.it" site_id="rai-gulp">RAI GULP</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiMovie.it" site_id="rai-movie">RAI MOVIE</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiNews24.it" site_id="rai-news-24">RAI NEWS 24</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiPremium.it" site_id="rai-premium">RAI PREMIUM</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiScuola.it" site_id="rai-scuola">RAI SCUOLA</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiSport.it" site_id="rai-sport">RAI SPORT</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiStoria.it" site_id="rai-storia">RAI STORIA</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiYoyo.it" site_id="rai-yoyo">RAI YOYO</channel>
   <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN.it" site_id="232">Zona DAZN</channel>
   <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN2.it" site_id="231">Zona DAZN 2</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="Sportitalia.it" site_id="1387">SPORTITALIA</channel>
