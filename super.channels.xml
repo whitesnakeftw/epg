@@ -47,6 +47,6 @@
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZNF1.es" site_id="MVF1">DAZN F1</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZNLaLiga.es" site_id="DAZNLI">DAZN LALIGA</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTV.es" site_id="DAZNLI">La Liga TV</channel>
-  <channel site="rally.tv" lang="en" xmltv_id="Rally.TV" site_id="rallytv">Rally.TV</channel>
+  <channel site="rally.tv" lang="en" xmltv_id="RallyTV.us" site_id="rallytv">Rally.TV</channel>
   <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC2.ar" site_id="948832">SSC2</channel>
 </channels>
