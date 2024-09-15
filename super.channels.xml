@@ -21,6 +21,7 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportNBA.it" site_id="DTH#764">Sky Sport NBA</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportTennis.it" site_id="DTH#559">Sky Sport Tennis</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportUno.it" site_id="DTH#23">Sky Sport Uno</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyUno.it" site_id="DTH#477">Sky Uno</channel>
   <channel site="raiplay.it" lang="it" xmltv_id="Rai1.it" site_id="rai-1">RAI 1</channel>
   <channel site="raiplay.it" lang="it" xmltv_id="Rai2.it" site_id="rai-2">RAI 2</channel>
   <channel site="raiplay.it" lang="it" xmltv_id="Rai3.it" site_id="rai-3">RAI 3</channel>
@@ -34,6 +35,7 @@
   <channel site="raiplay.it" lang="it" xmltv_id="RaiSport.it" site_id="rai-sport">RAI SPORT</channel>
   <channel site="raiplay.it" lang="it" xmltv_id="RaiStoria.it" site_id="rai-storia">RAI STORIA</channel>
   <channel site="raiplay.it" lang="it" xmltv_id="RaiYoyo.it" site_id="rai-yoyo">RAI YOYO</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="RSILa2.ch" site_id="la-2/rsi/232">La 2</channel>
   <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN.it" site_id="232">Zona DAZN</channel>
   <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN2.it" site_id="231">Zona DAZN 2</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="Sportitalia.it" site_id="1387">SPORTITALIA</channel>
@@ -48,6 +50,7 @@
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga1.de" site_id="119">Sky Sport Bundesliga 1 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="120">Sky Sport Bundesliga 2 HD</channel>
   <channel site="programme-tv.net" lang="de" xmltv_id="ZDF.de" site_id="zdf-193">ZDF</channel>
+  <channel site="hd-plus.de" lang="de" xmltv_id="RTL.de" site_id="rtl-hd">RTL Deutschland</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMainEvent.uk" site_id="1301">SkySpMainEv</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsPremierLeague.uk" site_id="1303">SkySp PL</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMix.uk" site_id="4091">SkySp Mix</channel>
@@ -66,6 +69,10 @@
   <channel site="tv.movistar.com.pe" lang="es" xmltv_id="FoxSportsPremium.mx" site_id="lch2294">FOX SPORTS PREMIUM</channel>
   <channel site="rally.tv" lang="en" xmltv_id="RallyTV.us" site_id="rallytv">Rally.TV</channel>
   <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC2.ar" site_id="948832">SSC2</channel>
-  <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel>
+  <!-- <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="NFLRedZone.us" site_id="89351">NFL Red Zone</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network West</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="ESPNDeportes.us" site_id="25595">ESPN Deportes</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="NovasportsPrime.gr" site_id="Novasports Prime">Novasports Prime</channel>
+  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport1.al" site_id="al/programacioni#tring-sport-1-hd">Tring Sport 1</channel>
 </channels>
