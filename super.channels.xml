@@ -53,7 +53,7 @@
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga1.de" site_id="119">Sky Sport Bundesliga 1 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="120">Sky Sport Bundesliga 2 HD</channel>
   <channel site="programme-tv.net" lang="de" xmltv_id="ZDF.de" site_id="zdf-193">ZDF</channel>
-  <channel site="programme-tv.net" lang="de" xmltv_id="RTL.de" site_id="rtl-television-198">RTL Télévision</channel>
+  <channel site="programme-tv.net" lang="de" xmltv_id="RTL.de" site_id="rtl-television-198">RTL Deutschland</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMainEvent.uk" site_id="1301">SkySpMainEv</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsPremierLeague.uk" site_id="1303">SkySp PL</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMix.uk" site_id="4091">SkySp Mix</channel>
