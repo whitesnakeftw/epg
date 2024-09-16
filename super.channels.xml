@@ -59,6 +59,7 @@
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMix.uk" site_id="4091">SkySp Mix</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsNFL.uk" site_id="1333">SkySp NFL</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsF1.uk" site_id="1306">SkySp F1</channel>
+  <channel site="sky.com" lang="en" xmltv_id="TNTSports1.uk" site_id="3661">TNT Sports 1</channel>
   <channel site="sky.com" lang="en" xmltv_id="TNTSports2.uk" site_id="3663">TNT Sports 2</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports1ROIHD.ie" site_id="2282/premier-sports-1-roi-hd">Premier Sports 1 ROI HD</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports2ROIHD.ie" site_id="2283/premier-sports-2-roi-hd">Premier Sports 2 ROI HD</channel>
@@ -77,4 +78,5 @@
   <channel site="flixed.io" lang="es" xmltv_id="ESPNDeportes.us" site_id="25595">ESPN Deportes</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="NovasportsPrime.gr" site_id="Novasports Prime">Novasports Prime</channel>
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport1.al" site_id="al/programacioni#tring-sport-1-hd">Tring Sport 1</channel>
+  <!-- <channel site="tv-programme.com" lang="fr" xmltv_id="DAZN1.fr" site_id="dazn-1">DAZN 1</channel> -->
 </channels>
