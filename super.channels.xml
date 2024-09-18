@@ -38,6 +38,10 @@
   <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="Rete4.it" site_id="R4">Rete 4</channel>
   <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="Canale5.it" site_id="C5">Canale 5</channel>
   <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="Italia1.it" site_id="I1">Italia 1</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="MediasetExtra.it" site_id="KQ">Mediaset Extra</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="GrandeFratelloRegia1.it" site_id="KQ">Grande Fratello Regia 1</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="GrandeFratelloRegia2.it" site_id="KQ">Grande Fratello Regia 2</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="GrandeFratelloRegiaUnOra.it" site_id="KQ">Grande Fratello Regia un'ora fa</channel>
   <channel site="superguidatv.it" lang="it" xmltv_id="RSILa2.ch" site_id="la-2/rsi/232">La 2</channel>
   <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN.it" site_id="232">Zona DAZN</channel>
   <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN2.it" site_id="231">Zona DAZN 2</channel>
