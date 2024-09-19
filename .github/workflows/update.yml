@@ -1,8 +1,8 @@
-name: update
+name: update2
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3,6 0 * * *'
+    - cron: '6 0 * * *'
 jobs:
   main:
     runs-on: ubuntu-latest
