@@ -79,6 +79,9 @@
   <channel site="sky.com" lang="en" xmltv_id="SkySportsF1.uk" site_id="1306">SkySp F1</channel>
   <channel site="sky.com" lang="en" xmltv_id="TNTSports1.uk" site_id="3661">TNT Sports 1</channel>
   <channel site="sky.com" lang="en" xmltv_id="TNTSports2.uk" site_id="3663">TNT Sports 2</channel>
+  <channel site="sky.com" lang="en" xmltv_id="TNTSports3.uk" site_id="5032">TNT Sports 3</channel>
+  <channel site="sky.com" lang="en" xmltv_id="TNTSports4.uk" site_id="3141">TNT Sports 4</channel>
+  <channel site="sky.com" lang="en" xmltv_id="DAZN1HD.uk" site_id="1359">DAZN 1 HD</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports1ROIHD.ie" site_id="2282/premier-sports-1-roi-hd">Premier Sports 1 ROI HD</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports2ROIHD.ie" site_id="2283/premier-sports-2-roi-hd">Premier Sports 2 ROI HD</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZN1.es" site_id="M1SD">DAZN 1</channel>
@@ -88,6 +91,7 @@
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZNF1.es" site_id="MVF1">DAZN F1</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZNLaLiga.es" site_id="DAZNLI">DAZN LALIGA</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTV.es" site_id="DAZNLI">La Liga TV</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTVHypermotion.es" site_id="MLIGS">LALIGA TV HYPERMOTION</channel>
   <channel site="tv.movistar.com.pe" lang="es" xmltv_id="FoxSportsPremium.mx" site_id="lch2294">FOX SPORTS PREMIUM</channel>
   <channel site="gatotv.com" lang="es" xmltv_id="Eurosport1.es" site_id="eurosport_1_espana">Eurosport 1 España</channel>
   <channel site="gatotv.com" lang="es" xmltv_id="Eurosport2.es" site_id="eurosport_2_espana">Eurosport 2 España</channel>
@@ -102,4 +106,11 @@
   <channel site="novasports.gr" lang="el" xmltv_id="NovasportsPrime.gr" site_id="Novasports Prime">Novasports Prime</channel>
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport1.al" site_id="al/programacioni#tring-sport-1-hd">Tring Sport 1</channel>
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport2.al" site_id="al/programacioni#tring-sport-2-hd">Tring Sport 2</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="Eleven1.be" site_id="11football">DAZN Eleven Sports 1</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague1.fr" site_id="jplfr01">DAZN Eleven Pro League 1 FR</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague1.fr" site_id="jplfr02">DAZN Eleven Pro League 2 FR</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague1.fr" site_id="jplfr03">DAZN Eleven Pro League 3 FR</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague1.be" site_id="jplnl01">DAZN Eleven Pro League 1 NL</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague2.be" site_id="jplnl02">DAZN Eleven Pro League 2 NL</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague3.be" site_id="jplnl03">DAZN Eleven Pro League 3 NL</channel>
 </channels>
