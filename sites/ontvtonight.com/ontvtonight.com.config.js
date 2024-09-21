@@ -14,7 +14,7 @@ module.exports = {
   url: function ({ date, channel }) {
     const [region, id] = channel.site_id.split('#')
     let url = 'https://www.ontvtonight.com'
-    if (region && region !== 'us') url += `/${region}`
+    if (region && !region.startsWith("us")) url += `/${region}`
     url += `/guide/listings/channel/${id}.html?dt=${date.format('YYYY-MM-DD')}`
 
     return url
@@ -27,10 +27,6 @@ module.exports = {
       const $item = cheerio.load(item)
       let start = parseStart($item, date, channel)
       if (prev) {
-        if (start.isBefore(prev.start)) {
-          start = start.add(1, 'd')
-          date = date.add(1, 'd')
-        }
         prev.stop = start
       }
       const stop = start.add(1, 'h')
@@ -155,11 +151,15 @@ function parseStart($item, date, channel) {
   const timezones = {
     au: 'Australia/Sydney',
     ca: 'America/Toronto',
-    us: 'America/New_York'
+    us: 'America/New_York',
+    us_east: 'America/New_York',
+    us_west: 'America/Los_Angeles'
   }
   const [region] = channel.site_id.split('#')
   const timeString = $item('td:nth-child(1) > h5').text().trim()
-  const dateString = `${date.format('YYYY-MM-DD')} ${timeString}`
+  const prevDate = $item('td:nth-child(1) > i').text().trim()
+  const currentDate = prevDate ? prevDate : date.format('YYYY-MM-DD')
+  const dateString = `${currentDate} ${timeString}`
 
   return dayjs.tz(dateString, 'YYYY-MM-DD H:mm a', timezones[region])
 }
