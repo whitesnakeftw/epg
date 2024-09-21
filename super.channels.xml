@@ -68,6 +68,8 @@
   <channel site="sky.de" lang="de" xmltv_id="DAZN2HD.de" site_id="900">DAZN 2 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga1.de" site_id="119">Sky Sport Bundesliga 1 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="120">Sky Sport Bundesliga 2 HD</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport1.de" site_id="167">Eurosport 1 DE</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport2.de" site_id="170">Eurosport 2 DE</channel>
   <channel site="programme-tv.net" lang="de" xmltv_id="ZDF.de" site_id="zdf-193">ZDF</channel>
   <channel site="programme-tv.net" lang="de" xmltv_id="RTL.de" site_id="rtl-television-198">RTL Deutschland</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMainEvent.uk" site_id="1301">SkySpMainEv</channel>
@@ -87,6 +89,8 @@
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZNLaLiga.es" site_id="DAZNLI">DAZN LALIGA</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTV.es" site_id="DAZNLI">La Liga TV</channel>
   <channel site="tv.movistar.com.pe" lang="es" xmltv_id="FoxSportsPremium.mx" site_id="lch2294">FOX SPORTS PREMIUM</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="Eurosport1.es" site_id="eurosport_1_espana">Eurosport 1 España</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="Eurosport2.es" site_id="eurosport_2_espana">Eurosport 2 España</channel>
   <channel site="rally.tv" lang="en" xmltv_id="RallyTV.us" site_id="rallytv">Rally.TV</channel>
   <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC2.ar" site_id="948832">SSC2</channel>
   <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel>
