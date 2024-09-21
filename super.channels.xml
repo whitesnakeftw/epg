@@ -90,7 +90,7 @@
   <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
-  <channel site="flixed.io" lang="en" xmltv_id="NBCWest.us" site_id="17221">NBC (West)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="KNBC.us" site_id="us#69049209/knbc">KNBC</channel>
   <channel site="flixed.io" lang="en" xmltv_id="GolfChannel.us" site_id="14899">Golf Channel</channel>
   <channel site="flixed.io" lang="es" xmltv_id="ESPNDeportes.us" site_id="25595">ESPN Deportes</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="NovasportsPrime.gr" site_id="Novasports Prime">Novasports Prime</channel>
