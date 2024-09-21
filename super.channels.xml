@@ -47,6 +47,8 @@
   <channel site="superguidatv.it" lang="it" xmltv_id="TV8.it" site_id="tv8/237">TV8</channel>
   <channel site="superguidatv.it" lang="it" xmltv_id="Nove.it" site_id="nove/238">Nove</channel>
   <channel site="superguidatv.it" lang="it" xmltv_id="RSILa2.ch" site_id="la-2/rsi/232">La 2</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="InterTV.it" site_id="inter-tv-hd/sky-sport/57">Inter TV HD</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="MilanTV.it" site_id="milan-tv/sky-sport/55">Milan TV</channel>
   <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN.it" site_id="232">Zona DAZN</channel>
   <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN2.it" site_id="231">Zona DAZN 2</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="Sportitalia.it" site_id="1387">SPORTITALIA</channel>
@@ -90,7 +92,7 @@
   <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="KNBC.us" site_id="us#69049209/knbc">KNBC</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="KNBC.us" site_id="us_west#69049209/knbc">KNBC</channel>
   <channel site="flixed.io" lang="en" xmltv_id="GolfChannel.us" site_id="14899">Golf Channel</channel>
   <channel site="flixed.io" lang="es" xmltv_id="ESPNDeportes.us" site_id="25595">ESPN Deportes</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="NovasportsPrime.gr" site_id="Novasports Prime">Novasports Prime</channel>
