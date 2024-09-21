@@ -119,4 +119,6 @@
   <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague2.be" site_id="jplnl02">DAZN Eleven Pro League 2 NL</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague3.be" site_id="jplnl03">DAZN Eleven Pro League 3 NL</channel>
   <channel site="nzxmltv.com" lang="en" xmltv_id="RedBullTV.at" site_id="iptv/redbull#10001">Red Bull TV</channel>
+    <channel site="cgates.lt" lang="en" xmltv_id="Go3SportOpen.ee" site_id="tv3-sport-open-hd">Go3 Sport Open HD</channel>
+
 </channels>
