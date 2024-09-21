@@ -94,8 +94,8 @@
   <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTV.es" site_id="DAZNLI">La Liga TV</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTVHypermotion.es" site_id="MLIGS">LALIGA TV HYPERMOTION</channel>
   <channel site="tv.movistar.com.pe" lang="es" xmltv_id="FoxSportsPremium.mx" site_id="lch2294">FOX SPORTS PREMIUM</channel>
-  <channel site="gatotv.com" lang="es" xmltv_id="Eurosport1.es" site_id="eurosport_1_espana">Eurosport 1 España</channel>
-  <channel site="gatotv.com" lang="es" xmltv_id="Eurosport2.es" site_id="eurosport_2_espana">Eurosport 2 España</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport1.es" site_id="ESP">Eurosport 1</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport2.es" site_id="ESP2">Eurosport 2</channel>
   <channel site="rally.tv" lang="en" xmltv_id="RallyTV.us" site_id="rallytv">Rally.TV</channel>
   <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC2.ar" site_id="948832">SSC2</channel>
   <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel>
