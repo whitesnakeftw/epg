@@ -70,6 +70,7 @@
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="120">Sky Sport Bundesliga 2 HD</channel>
   <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport1.de" site_id="167">Eurosport 1 DE</channel>
   <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport2.de" site_id="170">Eurosport 2 DE</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="1554">SPORTDIGITAL FUSSBALL</channel>
   <channel site="programme-tv.net" lang="de" xmltv_id="ZDF.de" site_id="zdf-193">ZDF</channel>
   <channel site="programme-tv.net" lang="de" xmltv_id="RTL.de" site_id="rtl-television-198">RTL Deutschland</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMainEvent.uk" site_id="1301">SkySpMainEv</channel>
@@ -100,9 +101,13 @@
   <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="KNBC.us" site_id="us_west#69049209/knbc">KNBC</channel>
   <channel site="flixed.io" lang="en" xmltv_id="GolfChannel.us" site_id="14899">Golf Channel</channel>
   <channel site="flixed.io" lang="es" xmltv_id="ESPNDeportes.us" site_id="25595">ESPN Deportes</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="NBATV.us" site_id="32281">NBA TV</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="MLB.us" site_id="62079">MLB Network</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="NFLNetwork.us" site_id="102795">NFL Network HD</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="Unbeaten.us" site_id="5e20b730f2f8d5003d739db7-633239caa6615514fb78ecf3">Unbeaten</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="KNBC.us" site_id="us_west#69049209/knbc">KNBC</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="NovasportsPrime.gr" site_id="Novasports Prime">Novasports Prime</channel>
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport1.al" site_id="al/programacioni#tring-sport-1-hd">Tring Sport 1</channel>
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport2.al" site_id="al/programacioni#tring-sport-2-hd">Tring Sport 2</channel>
