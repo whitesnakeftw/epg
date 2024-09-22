@@ -2,7 +2,7 @@ name: update2
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 5 * * *'
 jobs:
   main:
     runs-on: ubuntu-latest
@@ -21,7 +21,7 @@ jobs:
         run: |
           npm run channels:lint
       - name: superguide
-        run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
+        run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=2 --gzip
       - uses: actions4git/add-commit-push@v1
       - name: Publish Release
         uses: ncipollo/release-action@v1
