@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channels>  
+<channels>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport24.it" site_id="DTH#35">Sky Sport24</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportUno.it" site_id="DTH#23">Sky Sport Uno</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportTennis.it" site_id="DTH#559">Sky Sport Tennis</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportGolf.it" site_id="DTH#768">Sky Sport Golf</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport251.it" site_id="DTH#917">Sky Sport 251</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport252.it" site_id="DTH#951">Sky Sport 252</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport253.it" site_id="DTH#233">Sky Sport 253</channel>

@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>  
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport24.it" site_id="DTH#35">Sky Sport24</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportArena.it" site_id="DTH#24">Sky Sport Arena</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportCalcio.it" site_id="DTH#209">Sky Sport Calcio</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportF1.it" site_id="DTH#478">Sky Sport F1</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportGolf.it" site_id="DTH#768">Sky Sport Golf</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMax.it" site_id="DTH#248">Sky Sport Max</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMotoGP.it" site_id="DTH#483">Sky Sport MotoGP</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportNBA.it" site_id="DTH#764">Sky Sport NBA</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportTennis.it" site_id="DTH#559">Sky Sport Tennis</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportUno.it" site_id="DTH#23">Sky Sport Uno</channel>
 </channels>
