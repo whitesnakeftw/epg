@@ -16,10 +16,4 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyInvestigation.it" site_id="DTH#686">Sky Investigation</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyNature.it" site_id="DTH#695">Sky Nature</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySerie.it" site_id="DTH#684">Sky Serie</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="LA7.it" site_id="DTH#407">LA7</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="TV8.it" site_id="DTH#260">TV8</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="MTV.it" site_id="DTH#763">MTV</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="cielo.it" site_id="DTH#120">cielo</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="GamberoRosso.it" site_id="DTH#228">Gambero Rosso</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="History.it" site_id="DTH#513">History</channel>
 </channels>
