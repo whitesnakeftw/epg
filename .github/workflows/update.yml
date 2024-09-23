@@ -39,7 +39,7 @@ jobs:
       - name: superguide 8
         run: npm run grab -- --channels=super.8.channels.xml --output=super.8.guide.xml --maxConnections=2 --days=2
       - name: superguide 9
-        run: npm run grab -- --channels=super.9.channels.xml --output=super.9.guide.xml --maxConnections=2 --days=2
+        run: npm run grab -- --channels=super.9.channels.xml --output=super.9.guide.xml --maxConnections=2 --days=1
       - name: superguide 10
         run: npm run grab -- --channels=super.10.channels.xml --output=super.10.guide.xml --maxConnections=2 --days=2
       - name: superguide 11
