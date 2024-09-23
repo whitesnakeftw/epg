@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>  
+  <channel site="superguidatv.it" lang="it" xmltv_id="LA7.it" site_id="la7/253">La7</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="LA7d.it" site_id="la7d/254">La7d</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="TV8.it" site_id="tv8/237">TV8</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="Nove.it" site_id="nove/238">Nove</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="RSILa2.ch" site_id="la-2/rsi/232">La 2</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="InterTV.it" site_id="inter-tv-hd/sky-sport/57">Inter TV HD</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="MilanTV.it" site_id="milan-tv/sky-sport/55">Milan TV</channel>
+</channels>

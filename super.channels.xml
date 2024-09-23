@@ -73,6 +73,7 @@
   <channel site="tv.blue.ch" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="1554">SPORTDIGITAL FUSSBALL</channel>
   <channel site="programme-tv.net" lang="de" xmltv_id="ZDF.de" site_id="zdf-193">ZDF</channel>
   <channel site="programme-tv.net" lang="de" xmltv_id="RTL.de" site_id="rtl-television-198">RTL Deutschland</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RedBullTV.at" site_id="5027">Red Bull TV</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMainEvent.uk" site_id="1301">SkySpMainEv</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsPremierLeague.uk" site_id="1303">SkySp PL</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMix.uk" site_id="4091">SkySp Mix</channel>
@@ -85,6 +86,7 @@
   <channel site="sky.com" lang="en" xmltv_id="DAZN1HD.uk" site_id="1359">DAZN 1 HD</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports1ROIHD.ie" site_id="2282/premier-sports-1-roi-hd">Premier Sports 1 ROI HD</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports2ROIHD.ie" site_id="2283/premier-sports-2-roi-hd">Premier Sports 2 ROI HD</channel>
+  <channel site="rally.tv" lang="en" xmltv_id="RallyTV.us" site_id="rallytv">Rally.TV</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZN1.es" site_id="M1SD">DAZN 1</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZN2.es" site_id="M2SD">DAZN 2</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZN3.es" site_id="DAZN3">DAZN 3</channel>
@@ -96,8 +98,6 @@
   <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport1.es" site_id="ESP">Eurosport 1</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport2.es" site_id="ESP2">Eurosport 2</channel>
   <channel site="tv.movistar.com.pe" lang="es" xmltv_id="FoxSportsPremium.mx" site_id="lch2294">FOX SPORTS PREMIUM</channel>
-  <channel site="rally.tv" lang="en" xmltv_id="RallyTV.us" site_id="rallytv">Rally.TV</channel>
-  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC2.ar" site_id="948832">SSC2</channel>
   <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
@@ -108,9 +108,6 @@
   <channel site="flixed.io" lang="en" xmltv_id="NFLNetwork.us" site_id="102795">NFL Network HD</channel>
   <channel site="plex.tv" lang="en" xmltv_id="Unbeaten.us" site_id="5e20b730f2f8d5003d739db7-633239caa6615514fb78ecf3">Unbeaten</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="KNBC.us" site_id="us_west#69049209/knbc">KNBC</channel>
-  <channel site="novasports.gr" lang="el" xmltv_id="NovasportsPrime.gr" site_id="Novasports Prime">Novasports Prime</channel>
-  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport1.al" site_id="al/programacioni#tring-sport-1-hd">Tring Sport 1</channel>
-  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport2.al" site_id="al/programacioni#tring-sport-2-hd">Tring Sport 2</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="Eleven1.be" site_id="11football">DAZN Eleven Sports 1</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague1.fr" site_id="jplfr01">DAZN Eleven Pro League 1 FR</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="ElevenProLeague1.fr" site_id="jplfr02">DAZN Eleven Pro League 2 FR</channel>
@@ -124,7 +121,10 @@
   <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports4.be" site_id="sporting4">Play Sports HD4</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="PlaySportsGolf.be" site_id="primegolf">Play Sports Golf</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="PlaySportsOpen.be" site_id="rexrioinfo">Play Sports Open</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="RedBullTV.at" site_id="5027">Red Bull TV</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC2.ar" site_id="948832">SSC2</channel>
+  <channel site="novasports.gr" lang="el" xmltv_id="NovasportsPrime.gr" site_id="Novasports Prime">Novasports Prime</channel>
+  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport1.al" site_id="al/programacioni#tring-sport-1-hd">Tring Sport 1</channel>
+  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport2.al" site_id="al/programacioni#tring-sport-2-hd">Tring Sport 2</channel>
   <channel site="cgates.lt" lang="en" xmltv_id="Go3SportOpen.ee" site_id="tv3-sport-open-hd">Go3 Sport Open HD</channel>
   <!-- <channel site="tv-programme.com" lang="fr" xmltv_id="LEquipe.fr" site_id="1401">LA CHAINE L'EQUIPE</channel>
   <channel site="tv-programme.com" lang="fr" xmltv_id="DAZN1.fr" site_id="3795">DAZN 1</channel> -->
