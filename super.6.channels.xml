@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN.it" site_id="232">Zona DAZN</channel>
-  <channel site="tivu.tv" lang="it" xmltv_id="ZonaDAZN2.it" site_id="231">Zona DAZN 2</channel>
-  <channel site="tv.blue.ch" lang="it" xmltv_id="Sportitalia.it" site_id="1387">SPORTITALIA</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="Rai5.it" site_id="rai-5">RAI 5</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiGulp.it" site_id="rai-gulp">RAI GULP</channel>
 </channels>

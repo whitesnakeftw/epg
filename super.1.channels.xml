@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>  
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport24.it" site_id="DTH#35">Sky Sport24</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport251.it" site_id="DTH#917">Sky Sport 251</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport252.it" site_id="DTH#951">Sky Sport 252</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport253.it" site_id="DTH#233">Sky Sport 253</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport254.it" site_id="DTH#234">Sky Sport 254</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport255.it" site_id="DTH#910">Sky Sport 255</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport256.it" site_id="DTH#912">Sky Sport 256</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport257.it" site_id="DTH#775">Sky Sport 257</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport258.it" site_id="DTH#772">Sky Sport 258</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport259.it" site_id="DTH#613">Sky Sport 259</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportArena.it" site_id="DTH#24">Sky Sport Arena</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportCalcio.it" site_id="DTH#209">Sky Sport Calcio</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportF1.it" site_id="DTH#478">Sky Sport F1</channel>
@@ -19,7 +10,4 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportNBA.it" site_id="DTH#764">Sky Sport NBA</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportTennis.it" site_id="DTH#559">Sky Sport Tennis</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportUno.it" site_id="DTH#23">Sky Sport Uno</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="Eurosport1.it" site_id="DTH#3073">Eurosport 1</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="Eurosport2.it" site_id="DTH#150">Eurosport 2</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SuperTennis.it" site_id="DTH#5246">SuperTennis</channel>
 </channels>

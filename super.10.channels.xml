@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channels>
-  <channel site="movistarplus.es" lang="es" xmltv_id="DAZN1.es" site_id="M1SD">DAZN 1</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="DAZN2.es" site_id="M2SD">DAZN 2</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="DAZN3.es" site_id="DAZN3">DAZN 3</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="DAZN4.es" site_id="DAZN4">DAZN 4</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="DAZNF1.es" site_id="MVF1">DAZN F1</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="DAZNLaLiga.es" site_id="DAZNLI">DAZN LALIGA</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTV.es" site_id="DAZNLI">La Liga TV</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTVHypermotion.es" site_id="MLIGS">LALIGA TV HYPERMOTION</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport1.es" site_id="ESP">Eurosport 1</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport2.es" site_id="ESP2">Eurosport 2</channel>
-  <channel site="tv.movistar.com.pe" lang="es" xmltv_id="FoxSportsPremium.mx" site_id="lch2294">FOX SPORTS PREMIUM</channel>
+<channels>  
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="Rete4.it" site_id="R4">Rete 4</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="Canale5.it" site_id="C5">Canale 5</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="Italia1.it" site_id="I1">Italia 1</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="MediasetExtra.it" site_id="KQ">Mediaset Extra</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="GrandeFratelloRegia1.it" site_id="KQ">Grande Fratello Regia 1</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="GrandeFratelloRegia2.it" site_id="KQ">Grande Fratello Regia 2</channel>
+  <channel site="mediasetinfinity.mediaset.it" lang="it" xmltv_id="GrandeFratelloRegiaUnOra.it" site_id="KQ">Grande Fratello Regia un'ora fa</channel>
 </channels>

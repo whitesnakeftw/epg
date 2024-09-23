@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channels>  
-  <!-- <channel site="superguidatv.it" lang="it" xmltv_id="LA7.it" site_id="la7/253">La7</channel> -->
-  <!-- <channel site="guida.tv" lang="it" xmltv_id="LA7.it" site_id="766555/la-7">LA 7</channel> -->
-  <!-- <channel site="superguidatv.it" lang="it" xmltv_id="LA7d.it" site_id="la7d/254">La7d</channel> -->
-  <channel site="guida.tv" lang="it" xmltv_id="LA7d.it" site_id="76655568/la7d">La7d</channel>
-  <!-- <channel site="superguidatv.it" lang="it" xmltv_id="TV8.it" site_id="tv8/237">TV8</channel> -->
-  <!-- <channel site="guida.tv" lang="it" xmltv_id="TV8.it" site_id="778473/tv8">TV8</channel> -->
-  <!-- <channel site="superguidatv.it" lang="it" xmltv_id="Nove.it" site_id="nove/238">Nove</channel> -->
-  <channel site="guida.tv" lang="it" xmltv_id="Nove.it" site_id="68748486/nove">Nove</channel>
-  <!-- <channel site="superguidatv.it" lang="it" xmltv_id="InterTV.it" site_id="inter-tv-hd/sky-sport/57">Inter TV HD</channel> -->
-  <channel site="guida.tv" lang="it" xmltv_id="InterTV.it" site_id="73788469/inter-tv">Inter TV</channel>
-  <!-- <channel site="superguidatv.it" lang="it" xmltv_id="MilanTV.it" site_id="milan-tv/sky-sport/55">Milan TV</channel> -->
-  <channel site="guida.tv" lang="it" xmltv_id="MilanTV.it" site_id="77738486/milan-tv">Milan TV</channel>
-  <!-- <channel site="superguidatv.it" lang="it" xmltv_id="RSILa2.ch" site_id="la-2/rsi/232">La 2</channel> -->
-  <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa1.ch" site_id="356">RSI La 1</channel>
-  <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa2.ch" site_id="357">RSI LA 2</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="LA7.it" site_id="DTH#407">LA7</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="TV8.it" site_id="DTH#260">TV8</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="MTV.it" site_id="DTH#763">MTV</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="cielo.it" site_id="DTH#120">cielo</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="GamberoRosso.it" site_id="DTH#228">Gambero Rosso</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="History.it" site_id="DTH#513">History</channel>
+<channels>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCrime.it" site_id="DTH#249">Sky Crime</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyDocumentaries.it" site_id="DTH#697">Sky Documentaries</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyInvestigation.it" site_id="DTH#686">Sky Investigation</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyNature.it" site_id="DTH#695">Sky Nature</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySerie.it" site_id="DTH#684">Sky Serie</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyUno.it" site_id="DTH#477">Sky Uno</channel>
 </channels>

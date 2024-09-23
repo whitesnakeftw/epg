@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports1.be" site_id="primesporthd">Play Sports HD1</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports2.be" site_id="sportinghd2">Play Sports HD2</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports3.be" site_id="sporting3">Play Sports HD3</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports4.be" site_id="sporting4">Play Sports HD4</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySportsGolf.be" site_id="primegolf">Play Sports Golf</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySportsOpen.be" site_id="rexrioinfo">Play Sports Open</channel>
+</channels>

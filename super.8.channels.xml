@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channels>
-  <channel site="sky.de" lang="de" xmltv_id="DAZN1HD.de" site_id="659">DAZN 1 HD</channel>
-  <channel site="sky.de" lang="de" xmltv_id="DAZN2HD.de" site_id="900">DAZN 2 HD</channel>
-  <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga1.de" site_id="119">Sky Sport Bundesliga 1 HD</channel>
-  <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="120">Sky Sport Bundesliga 2 HD</channel>
-  <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport1.de" site_id="167">Eurosport 1 DE</channel>
-  <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport2.de" site_id="170">Eurosport 2 DE</channel>
-  <channel site="tv.blue.ch" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="1554">SPORTDIGITAL FUSSBALL</channel>
-  <channel site="programme-tv.net" lang="de" xmltv_id="ZDF.de" site_id="zdf-193">ZDF</channel>
-  <channel site="programme-tv.net" lang="de" xmltv_id="RTL.de" site_id="rtl-television-198">RTL Deutschland</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="RedBullTV.at" site_id="5027">Red Bull TV</channel>
+<channels>  
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiSport.it" site_id="rai-sport">RAI SPORT</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="RaiStoria.it" site_id="rai-storia">RAI STORIA</channel>
 </channels>

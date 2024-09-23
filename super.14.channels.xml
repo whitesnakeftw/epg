@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="nostv.pt" lang="pt" xmltv_id="Eleven1.pt" site_id="518">ELEVEN SPORTS 1</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="Eleven2.pt" site_id="519">ELEVEN SPORTS 2</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="Eleven3.pt" site_id="513">ELEVEN SPORTS 3</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="Eleven4.pt" site_id="514">ELEVEN SPORTS 4</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="Eleven5.pt" site_id="515">ELEVEN SPORTS 5</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="Eleven6.pt" site_id="516">ELEVEN SPORTS 6</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="SportTV1.pt" site_id="137">SPORT TV1 HD</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="SportTV2.pt" site_id="187">SPORT TV2 HD</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="SportTV3.pt" site_id="188">SPORT TV3 HD</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="SportTV4.pt" site_id="247">SPORT TV4 HD</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="SportTV5.pt" site_id="180">SPORT TV5 HD</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="SportTV6.pt" site_id="610">Sport TV 6 HD</channel>
+</channels>

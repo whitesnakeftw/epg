@@ -23,31 +23,49 @@ jobs:
       - name: superguide
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
       - name: superguide 1
-        run: npm run grab -- --channels=super.1.channels.xml --output=super.1.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.1.channels.xml --output=super.1.guide.xml --maxConnections=2 --days=2
       - name: superguide 2
-        run: npm run grab -- --channels=super.2.channels.xml --output=super.2.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.2.channels.xml --output=super.2.guide.xml --maxConnections=2 --days=2
       - name: superguide 3
-        run: npm run grab -- --channels=super.3.channels.xml --output=super.3.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.3.channels.xml --output=super.3.guide.xml --maxConnections=2 --days=2
       - name: superguide 4
-        run: npm run grab -- --channels=super.4.channels.xml --output=super.4.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.4.channels.xml --output=super.4.guide.xml --maxConnections=2 --days=2
       - name: superguide 5
-        run: npm run grab -- --channels=super.5.channels.xml --output=super.5.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.5.channels.xml --output=super.5.guide.xml --maxConnections=2 --days=2
       - name: superguide 6
-        run: npm run grab -- --channels=super.6.channels.xml --output=super.6.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.6.channels.xml --output=super.6.guide.xml --maxConnections=2 --days=2
       - name: superguide 7
-        run: npm run grab -- --channels=super.7.channels.xml --output=super.7.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.7.channels.xml --output=super.7.guide.xml --maxConnections=2 --days=2
       - name: superguide 8
-        run: npm run grab -- --channels=super.8.channels.xml --output=super.8.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.8.channels.xml --output=super.8.guide.xml --maxConnections=2 --days=2
       - name: superguide 9
-        run: npm run grab -- --channels=super.9.channels.xml --output=super.9.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.9.channels.xml --output=super.9.guide.xml --maxConnections=2 --days=2
       - name: superguide 10
-        run: npm run grab -- --channels=super.10.channels.xml --output=super.10.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.10.channels.xml --output=super.10.guide.xml --maxConnections=2 --days=2
       - name: superguide 11
-        run: npm run grab -- --channels=super.11.channels.xml --output=super.11.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.11.channels.xml --output=super.11.guide.xml --maxConnections=2 --days=2
       - name: superguide 12
-        run: npm run grab -- --channels=super.12.channels.xml --output=super.12.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.12.channels.xml --output=super.12.guide.xml --maxConnections=2 --days=2
       - name: superguide 13
-        run: npm run grab -- --channels=super.13.channels.xml --output=super.13.guide.xml --maxConnections=2
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.13.guide.xml --maxConnections=2 --days=2
+      - name: superguide 14
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.14.guide.xml --maxConnections=2 --days=2
+      - name: superguide 15
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.15.guide.xml --maxConnections=2 --days=2
+      - name: superguide 16
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.16.guide.xml --maxConnections=2 --days=2
+      - name: superguide 17
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.17.guide.xml --maxConnections=2 --days=2
+      - name: superguide 18
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.18.guide.xml --maxConnections=2 --days=2
+      - name: superguide 19
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.19.guide.xml --maxConnections=2 --days=2
+      - name: superguide 20
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.20.guide.xml --maxConnections=2 --days=2
+      - name: superguide 21
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.21.guide.xml --maxConnections=2 --days=2
+      - name: superguide 22
+        run: npm run grab -- --channels=super.13.channels.xml --output=super.22.guide.xml --maxConnections=2 --days=2
       - uses: actions4git/add-commit-push@v1
       - name: Publish Release
         uses: ncipollo/release-action@v1

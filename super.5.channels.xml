@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channels>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyUno.it" site_id="DTH#477">Sky Uno</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyArte.it" site_id="DTH#74">Sky Arte</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyAtlantic.it" site_id="DTH#226">Sky Atlantic</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaAction.it" site_id="DTH#206">Sky Cinema Action</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaComedy.it" site_id="DTH#30">Sky Cinema Comedy</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaDrama.it" site_id="DTH#769">Sky Cinema Drama</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaDue.it" site_id="DTH#564">Sky Cinema Due</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaFamily.it" site_id="DTH#255">Sky Cinema Family</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaRomance.it" site_id="DTH#231">Sky Cinema Romance</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaSuspense.it" site_id="DTH#47">Sky Cinema Suspense</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaUno.it" site_id="DTH#202">Sky Cinema Uno</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCrime.it" site_id="DTH#249">Sky Crime</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyDocumentaries.it" site_id="DTH#697">Sky Documentaries</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyInvestigation.it" site_id="DTH#686">Sky Investigation</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyNature.it" site_id="DTH#695">Sky Nature</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySerie.it" site_id="DTH#684">Sky Serie</channel>
+<channels>  
+  <channel site="raiplay.it" lang="it" xmltv_id="Rai1.it" site_id="rai-1">RAI 1</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="Rai2.it" site_id="rai-2">RAI 2</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="Rai3.it" site_id="rai-3">RAI 3</channel>
+  <channel site="raiplay.it" lang="it" xmltv_id="Rai4.it" site_id="rai-4">RAI 4</channel>
 </channels>

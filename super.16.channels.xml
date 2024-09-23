@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="sky.com" lang="en" xmltv_id="TNTSports1.uk" site_id="3661">TNT Sports 1</channel>
+  <channel site="sky.com" lang="en" xmltv_id="TNTSports2.uk" site_id="3663">TNT Sports 2</channel>
+  <channel site="sky.com" lang="en" xmltv_id="TNTSports3.uk" site_id="5032">TNT Sports 3</channel>
+  <channel site="sky.com" lang="en" xmltv_id="TNTSports4.uk" site_id="3141">TNT Sports 4</channel>
+  <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports1ROIHD.ie" site_id="2282/premier-sports-1-roi-hd">Premier Sports 1 ROI HD</channel>
+  <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports2ROIHD.ie" site_id="2283/premier-sports-2-roi-hd">Premier Sports 2 ROI HD</channel>
+  <channel site="rally.tv" lang="en" xmltv_id="RallyTV.us" site_id="rallytv">Rally.TV</channel>
+</channels>

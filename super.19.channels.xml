@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="GolfChannel.us" site_id="14899">Golf Channel</channel>
+  <channel site="flixed.io" lang="es" xmltv_id="ESPNDeportes.us" site_id="25595">ESPN Deportes</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="NBATV.us" site_id="32281">NBA TV</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="MLB.us" site_id="62079">MLB Network</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="NFLNetwork.us" site_id="102795">NFL Network HD</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="Unbeaten.us" site_id="5e20b730f2f8d5003d739db7-633239caa6615514fb78ecf3">Unbeaten</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="KNBC.us" site_id="us_west#69049209/knbc">KNBC</channel>
+</channels>

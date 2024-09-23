@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channels>
-  <channel site="flixed.io" lang="en" xmltv_id="NFLRedZone.us" site_id="65024">NFL RedZone</channel>
-  <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
-  <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
-  <channel site="flixed.io" lang="en" xmltv_id="GolfChannel.us" site_id="14899">Golf Channel</channel>
-  <channel site="flixed.io" lang="es" xmltv_id="ESPNDeportes.us" site_id="25595">ESPN Deportes</channel>
-  <channel site="flixed.io" lang="en" xmltv_id="NBATV.us" site_id="32281">NBA TV</channel>
-  <channel site="flixed.io" lang="en" xmltv_id="MLB.us" site_id="62079">MLB Network</channel>
-  <channel site="flixed.io" lang="en" xmltv_id="NFLNetwork.us" site_id="102795">NFL Network HD</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="Unbeaten.us" site_id="5e20b730f2f8d5003d739db7-633239caa6615514fb78ecf3">Unbeaten</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="KNBC.us" site_id="us_west#69049209/knbc">KNBC</channel>
+<channels>  
+  <!-- <channel site="superguidatv.it" lang="it" xmltv_id="LA7.it" site_id="la7/253">La7</channel> -->
+  <!-- <channel site="guida.tv" lang="it" xmltv_id="LA7.it" site_id="766555/la-7">LA 7</channel> -->
+  <!-- <channel site="superguidatv.it" lang="it" xmltv_id="LA7d.it" site_id="la7d/254">La7d</channel> -->
+  <channel site="guida.tv" lang="it" xmltv_id="LA7d.it" site_id="76655568/la7d">La7d</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="LA7.it" site_id="DTH#407">LA7</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="cielo.it" site_id="DTH#120">cielo</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="GamberoRosso.it" site_id="DTH#228">Gambero Rosso</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="History.it" site_id="DTH#513">History</channel>
 </channels>
