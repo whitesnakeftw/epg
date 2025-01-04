@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<channels>
-  <channel site="sky.com" lang="en" xmltv_id="DAZN1HD.uk" site_id="1359">DAZN 1 HD</channel>
-  <channel site="sky.com" lang="en" xmltv_id="SkySportsF1.uk" site_id="1306">SkySp F1</channel>
-  <channel site="sky.com" lang="en" xmltv_id="SkySportsMainEvent.uk" site_id="1301">SkySpMainEv</channel>
-  <channel site="sky.com" lang="en" xmltv_id="SkySportsMix.uk" site_id="4091">SkySp Mix</channel>
-  <channel site="sky.com" lang="en" xmltv_id="SkySportsNFL.uk" site_id="1333">SkySp NFL</channel>
-  <channel site="sky.com" lang="en" xmltv_id="SkySportsPremierLeague.uk" site_id="1303">SkySp PL</channel>
-</channels>
