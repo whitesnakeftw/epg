@@ -45,7 +45,7 @@ module.exports = {
       programs.push({
         title: parseTitle($item),
         category: parseCategory($item),
-        image: details.image,
+        icon: details.image,
         description: details.description,
         directors: details.directors,
         actors: details.actors,
@@ -95,7 +95,7 @@ async function loadProgramDetails($item) {
   const $ = cheerio.load(content)
 
   return Promise.resolve({
-    image: parseImage($),
+    icon: parseImage($),
     actors: parseActors($),
     directors: parseDirectors($),
     description: parseDescription($)

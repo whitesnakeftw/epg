@@ -15,7 +15,7 @@ module.exports = {
       programs.push({
         title: item.title,
         description: item.description,
-        image: item.imageLandscape,
+        icon: item.imageLandscape,
         category: item.genres,
         season: item.seasonNumber || null,
         episode: item.episodeNumber || null,

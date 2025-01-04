@@ -38,7 +38,7 @@ module.exports = {
         category: item.subcategoryList,
         season: item.seasonNumber,
         episode: item.episodeNumber,
-        image: parseImage(item),
+        icon: parseImage(item),
         start,
         stop
       })

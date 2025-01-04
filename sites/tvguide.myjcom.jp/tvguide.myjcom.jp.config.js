@@ -24,7 +24,7 @@ module.exports = {
         title: item.title,
         description: item.commentary,
         category: parseCategory(item),
-        image: parseImage(item),
+        icon: parseImage(item),
         start: parseStart(item),
         stop: parseStop(item)
       })

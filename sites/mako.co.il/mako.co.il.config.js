@@ -20,7 +20,7 @@ module.exports = {
       programs.push({
         title: item.ProgramName,
         description: item.EventDescription,
-        image: item.Picture,
+        icon: item.Picture,
         start,
         stop
       })

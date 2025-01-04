@@ -62,7 +62,7 @@ module.exports = {
         title: item.displayNm,
         start: parseStart(item),
         stop: parseStop(item),
-        image: parseImage(programDetail),
+        icon: parseImage(programDetail),
         category: parseCategory(programDetail),
         description: parseDescription(programDetail)
       })

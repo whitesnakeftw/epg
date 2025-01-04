@@ -33,7 +33,7 @@ module.exports = {
       programs.push({
         title: details.main_title,
         description: details.short_argument,
-        image: parseImage(details),
+        icon: parseImage(details),
         actors: parseActors(details),
         rating: parseRating(details),
         date: details.year,

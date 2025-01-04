@@ -45,7 +45,7 @@ module.exports = {
         title: item.name,
         category: item.genres,
         description: item.introduce,
-        image: parseImage(item),
+        icon: parseImage(item),
         start: start.toJSON(),
         stop: stop.toJSON()
       })

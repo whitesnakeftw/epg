@@ -19,7 +19,7 @@ module.exports = {
         title: item.season?.serie?.title ? item.season.serie.title : item.title,
         category: item.genreDetailed,
         description: item.synopsis,
-        image: parseImage(item),
+        icon: parseImage(item),
         start: start.toJSON(),
         stop: stop.toJSON()
       })

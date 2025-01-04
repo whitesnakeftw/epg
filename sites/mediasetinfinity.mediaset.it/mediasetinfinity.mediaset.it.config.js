@@ -45,7 +45,7 @@ module.exports = {
           episode: episode,
           start: parseTime(listing.startTime),
           stop: parseTime(listing.endTime),
-          image: getMaxResolutionThumbnails(listing)
+          icon: getMaxResolutionThumbnails(listing)
         })
       }
     })

@@ -35,7 +35,7 @@ module.exports = {
         title: parseTitle($item),
         sub_title: parseSubTitle($item),
         description: parseDescription($item),
-        image: parseImage($item),
+        icon: parseImage($item),
         rating: parseRating($item),
         start,
         stop

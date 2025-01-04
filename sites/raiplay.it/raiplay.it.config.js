@@ -35,7 +35,7 @@ module.exports = {
         url: parseURL(item),
         start,
         stop,
-        image: parseImage(item)
+        icon: parseImage(item)
       })
     })
 

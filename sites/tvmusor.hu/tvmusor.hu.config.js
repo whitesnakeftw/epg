@@ -38,7 +38,7 @@ module.exports = {
         title: item.j,
         category: item.h,
         description: item.c,
-        image: parseImage(item),
+        icon: parseImage(item),
         start,
         stop
       })

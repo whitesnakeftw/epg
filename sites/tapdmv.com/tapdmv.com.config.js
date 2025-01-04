@@ -22,7 +22,7 @@ module.exports = {
         title: item.program.trim(),
         description: item.description,
         category: item.genre,
-        image: item.thumbnailImage,
+        icon: item.thumbnailImage,
         start: parseStart(item),
         stop: parseStop(item)
       })

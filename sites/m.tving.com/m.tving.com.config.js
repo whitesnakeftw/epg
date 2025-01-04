@@ -30,7 +30,7 @@ module.exports = {
         actors: item.program.actor,
         start: parseStart(item),
         stop: parseStop(item),
-        image: parseImage(item)
+        icon: parseImage(item)
       })
     })
 

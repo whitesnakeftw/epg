@@ -15,7 +15,7 @@ module.exports = {
         // date: dayjs({year: item.program?.year}),
         season: item.program?.tvSeasonNumber,
         episode: item.program?.tvSeasonEpisodeNumber,
-        // image: item.images?.find(x => x.type === "landscape" && x.width > 700 && x.width < 800)?.url,
+        // icon: item.images?.find(x => x.type === "landscape" && x.width > 700 && x.width < 800)?.url,
         start: dayjs.unix(item.startTime).unix(),
         stop: dayjs.unix(item.endTime).unix(),
         // categories: parseCategories(item),

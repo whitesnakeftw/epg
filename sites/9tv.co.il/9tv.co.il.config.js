@@ -27,7 +27,7 @@ module.exports = {
       const stop = start.add(1, 'h')
       programs.push({
         title: parseTitle($item),
-        image: parseImage($item),
+        icon: parseImage($item),
         description: parseDescription($item),
         start,
         stop

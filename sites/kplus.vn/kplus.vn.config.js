@@ -35,7 +35,7 @@ module.exports = {
       if (prev) prev.stop = start
       programs.push({
         title: item.Program.Name,
-        image: item.Program.Images,
+        icon: item.Program.Images,
         category: item.Program.Genres,
         start,
         stop
