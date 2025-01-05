@@ -87,7 +87,6 @@
   <channel site="web.magentatv.de" lang="de" xmltv_id="" site_id="5554">Sky Sport 10</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="" site_id="5555">Sky Sport Premier League</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="" site_id="5556">Sky Sport Mix</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="" site_id="5557">Sky Sport Bundesliga 10</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="" site_id="5558">Sky Sport Golf</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="" site_id="5577">Sky Showcase</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="" site_id="5600">Euronews English</channel>
@@ -286,16 +285,17 @@
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport9.de" site_id="127">Sky Sport 7</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport10.de" site_id="261">Sky Sport 8</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport11.de" site_id="187">Sky Sport 9</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga1.de" site_id="42">Sky Sport Bundesliga</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="206">Sky Sport Bundesliga 1</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga3.de" site_id="211">Sky Sport Bundesliga 2</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga4.de" site_id="199">Sky Sport Bundesliga 3</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga5.de" site_id="232">Sky Sport Bundesliga 4</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga6.de" site_id="234">Sky Sport Bundesliga 5</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga7.de" site_id="231">Sky Sport Bundesliga 6</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga8.de" site_id="258">Sky Sport Bundesliga 7</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga9.de" site_id="219">Sky Sport Bundesliga 8</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga10.de" site_id="237">Sky Sport Bundesliga 9</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga.de" site_id="42">Sky Sport Bundesliga</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga1.de" site_id="206">Sky Sport Bundesliga 1</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="211">Sky Sport Bundesliga 2</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga3.de" site_id="199">Sky Sport Bundesliga 3</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga4.de" site_id="232">Sky Sport Bundesliga 4</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga5.de" site_id="234">Sky Sport Bundesliga 5</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga6.de" site_id="231">Sky Sport Bundesliga 6</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga7.de" site_id="258">Sky Sport Bundesliga 7</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga8.de" site_id="219">Sky Sport Bundesliga 8</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga9.de" site_id="237">Sky Sport Bundesliga 9</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga10.de" site_id="5557">Sky Sport Bundesliga 10</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportF1.de" site_id="4889">Sky Sport F1</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportNews.de" site_id="190">Sky Sport News</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SonnenklarTV.de" site_id="486">sonnenklar.TV</channel>

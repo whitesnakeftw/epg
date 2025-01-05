@@ -1,13 +1,14 @@
+// from https://github.com/iptv-org/epg/blob/82f6fc114b6dc36feb6d6ea9b3dce5ece7331cdc/sites/web.magentatv.de/web.magentatv.de.config.js
+
 const axios = require('axios')
 const dayjs = require('dayjs')
 const utc = require('dayjs/plugin/utc')
 const customParseFormat = require('dayjs/plugin/customParseFormat')
-const fetch = require('node-fetch')
+const { upperCase } = require('lodash')
 
 let X_CSRFTOKEN
 let COOKIE
 const cookiesToExtract = ['JSESSIONID', 'CSESSIONID', 'CSRFSESSION']
-const extractedCookies = {}
 
 dayjs.extend(utc)
 dayjs.extend(customParseFormat)
@@ -29,7 +30,7 @@ module.exports = {
         offset: 0,
         properties: [
           {
-            include: 'endtime,genres,id,name,starttime,channelid,pictures,introduce',
+            include: 'endtime,genres,id,name,starttime,channelid,pictures,introduce,subName,seasonNum,subNum,cast,country,producedate,externalIds',
             name: 'playbill'
           }
         ],
@@ -50,7 +51,16 @@ module.exports = {
         icon: parseImage(item),
         category: parseCategory(item),
         start: parseStart(item),
-        stop: parseStop(item)
+        stop: parseStop(item),
+        sub_title: item.subName,
+        season: item.seasonNum,
+        episode: item.subNum,
+        directors: parseDirectors(item),
+        producers: parseProducers(item),
+        adapters: parseAdapters(item),
+        country: upperCase(item.country),
+        date: item.producedate,
+        urls: parseUrls(item)
       })
     })
     return programs
@@ -102,6 +112,38 @@ function parseCategory(item) {
     : []
 }
 
+function parseDirectors(item) {
+  if (!item.cast || !item.cast.director) return [];
+  return item.cast.director
+    .replace('und', ',')
+    .split(',')
+    .map(i => i.trim());
+}
+
+function parseProducers(item) {
+  if (!item.cast || !item.cast.producer) return [];
+  return item.cast.producer
+    .replace('und', ',')
+    .split(',')
+    .map(i => i.trim())
+}
+
+function parseAdapters(item) {
+  if (!item.cast || !item.cast.adaptor) return [];
+  return item.cast.adaptor
+    .replace('und', ',')
+    .split(',')
+    .map(i => i.trim())
+}
+
+function parseUrls(item) {
+  // currently only a imdb id is returned by the api, thus we can construct the url here
+  if (!item.externalIds) return [];
+  return JSON.parse(item.externalIds)
+    .filter(externalId => externalId.type === 'imdb' && externalId.id)
+    .map(externalId => ({ system: 'imdb', value: `https://www.imdb.com/title/${externalId.id}` }))
+}
+
 function parseImage(item) {
   if (!Array.isArray(item.pictures) || !item.pictures.length) return null
 
@@ -123,11 +165,15 @@ function parseItems(content) {
   return data.playbilllist
 }
 
-// Function to try to fetch COOKIE and X_CSRFTOKEN
-function fetchCookieAndToken() {
-  return fetch(
-    'https://api.prod.sngtv.magentatv.de/EPG/JSON/Authenticate?SID=firstup&T=Windows_chrome_118',
-    {
+async function fetchCookieAndToken() {
+  // Only fetch the cookies and csrfToken if they are not already set
+  if (X_CSRFTOKEN && COOKIE) {
+    return
+  }
+
+  try {
+    const response = await axios.request({
+      url: 'https://api.prod.sngtv.magentatv.de/EPG/JSON/Authenticate',
       headers: {
         accept: 'application/json, text/javascript, */*; q=0.01',
         'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
@@ -138,43 +184,41 @@ function fetchCookieAndToken() {
         Referer: 'https://web.magentatv.de/',
         'Referrer-Policy': 'strict-origin-when-cross-origin'
       },
-      body: '{"terminalid":"00:00:00:00:00:00","mac":"00:00:00:00:00:00","terminaltype":"WEBTV","utcEnable":1,"timezone":"Etc/GMT0","userType":3,"terminalvendor":"Unknown"}',
-      method: 'POST'
+      params: {
+        SID: 'firstup',
+        T: 'Windows_chrome_118'
+      },
+      method: 'POST',
+      data: '{"terminalid":"00:00:00:00:00:00","mac":"00:00:00:00:00:00","terminaltype":"WEBTV","utcEnable":1,"timezone":"Etc/GMT0","userType":3,"terminalvendor":"Unknown"}',
+    })
+
+
+    // Extract the cookies specified in cookiesToExtract
+    const setCookieHeader = response.headers['set-cookie'] || []
+    let extractedCookies = []
+    cookiesToExtract.forEach(cookieName => {
+      const regex = new RegExp(`${cookieName}=(.+?)(;|$)`)
+      const match = setCookieHeader.find(header => regex.test(header))
+
+      if (match) {
+        const cookieString = regex.exec(match)[0]
+        extractedCookies.push(cookieString)
+      }
+    })
+
+
+    // check if we recieved a csrfToken only then store the values
+    if (!response.data.csrfToken) {
+      console.log('csrfToken not found in the response.')
+      return
     }
-  )
-    .then(response => {
-      // Check if the response status is OK (2xx)
-      if (!response.ok) {
-        throw new Error('HTTP request failed')
-      }
 
-      // Extract the set-cookie header
-      const setCookieHeader = response.headers.raw()['set-cookie']
+    X_CSRFTOKEN = response.data.csrfToken
+    COOKIE = extractedCookies.join(' ')
 
-      // Extract the cookies specified in cookiesToExtract
-      cookiesToExtract.forEach(cookieName => {
-        const regex = new RegExp(`${cookieName}=(.+?)(;|$)`)
-        const match = setCookieHeader.find(header => regex.test(header))
-
-        if (match) {
-          const cookieValue = regex.exec(match)[1]
-          extractedCookies[cookieName] = cookieValue
-        }
-      })
-
-      return response.json()
-    })
-    .then(data => {
-      if (data.csrfToken) {
-        X_CSRFTOKEN = data.csrfToken
-        COOKIE = `JSESSIONID=${extractedCookies.JSESSIONID}; CSESSIONID=${extractedCookies.CSESSIONID}; CSRFSESSION=${extractedCookies.CSRFSESSION}; JSESSIONID=${extractedCookies.JSESSIONID};`
-      } else {
-        console.log('csrfToken not found in the response.')
-      }
-    })
-    .catch(error => {
-      console.error(error)
-    })
+  } catch(error) {
+    console.error(error)
+  }
 }
 
 function setHeaders() {

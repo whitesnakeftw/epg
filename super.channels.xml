@@ -104,7 +104,19 @@
   <channel site="sky.de" lang="de" xmltv_id="DAZN1.de" site_id="659">DAZN 1 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="DAZN2.de" site_id="900">DAZN 2 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportTopEventHD.de" site_id="1014">Sky Sport Top Event HD</channel>
-  <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesligaHD.de" site_id="207382568125">Sky Bundesliga HD</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga.de" site_id="42">Sky Sport Bundesliga</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga1.de" site_id="206">Sky Sport Bundesliga 1</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="211">Sky Sport Bundesliga 2</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga3.de" site_id="199">Sky Sport Bundesliga 3</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga4.de" site_id="232">Sky Sport Bundesliga 4</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga5.de" site_id="234">Sky Sport Bundesliga 5</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga6.de" site_id="231">Sky Sport Bundesliga 6</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga7.de" site_id="258">Sky Sport Bundesliga 7</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga8.de" site_id="219">Sky Sport Bundesliga 8</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga9.de" site_id="237">Sky Sport Bundesliga 9</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga10.de" site_id="5557">Sky Sport Bundesliga 10</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RedBullTV.at" site_id="5027">Red Bull TV</channel>
+  <!-- <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesligaHD.de" site_id="207382568125">Sky Bundesliga HD</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga1HD.de" site_id="207382568030">Sky Bundesliga HD 1</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga2HD.de" site_id="207381032273">Sky Bundesliga HD 2</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga3HD.de" site_id="207382568028">Sky Bundesliga HD 3</channel>
@@ -114,7 +126,7 @@
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga7HD.de" site_id="207381032278">Sky Bundesliga HD 7</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga8HD.de" site_id="207381032279">Sky Bundesliga HD 8</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga9HD.de" site_id="207381032274">Sky Bundesliga HD 9</channel>
-  <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga10HD.de" site_id="301713448071">Sky Bundesliga HD 10</channel>
+  <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga10HD.de" site_id="301713448071">Sky Bundesliga HD 10</channel> -->
   <!-- <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga1HD.de" site_id="119">Sky Sport Bundesliga 1 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga2HD.de" site_id="120">Sky Sport Bundesliga 2 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga3HD.de" site_id="121">Sky Sport Bundesliga 3 HD</channel>
@@ -128,7 +140,6 @@
   <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport1.de" site_id="167">Eurosport 1 DE</channel>
   <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport2.de" site_id="170">Eurosport 2 DE</channel>
   <channel site="tv.blue.ch" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="1554">SPORTDIGITAL FUSSBALL</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="RedBullTV.at" site_id="5027">Red Bull TV</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsMainEvent.uk" site_id="1301">SkySpMainEv</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsPremierLeague.uk" site_id="1303">SkySp PL</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkySportsFootball.uk" site_id="3838">SkySp F'ball</channel>
@@ -142,13 +153,13 @@
   <channel site="sky.com" lang="en" xmltv_id="TNTSports2.uk" site_id="3663">TNT Sports 2</channel>
   <channel site="sky.com" lang="en" xmltv_id="TNTSports3.uk" site_id="5032">TNT Sports 3</channel>
   <channel site="sky.com" lang="en" xmltv_id="TNTSports4.uk" site_id="3141">TNT Sports 4</channel>
-  <channel site="sky.com" lang="en" xmltv_id="PremierSport1.uk" site_id="1289">Premier 1 HD</channel>
-  <channel site="sky.com" lang="en" xmltv_id="PremierSport2.uk" site_id="1290">Premier 2 HD</channel>
-  <channel site="sky.com" lang="en" xmltv_id="DAZN1HD.uk" site_id="1359">DAZN 1 HD</channel>
-  <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySportsMainEventUHD.uk" site_id="2257">SkySportsMainEventUHD</channel>
+  <channel site="sky.com" lang="en" xmltv_id="PremierSports1.uk" site_id="1289">Premier Sports 1</channel>
+  <channel site="sky.com" lang="en" xmltv_id="PremierSports2.uk" site_id="1290">Premier Sports 2</channel>
+  <!-- <channel site="sky.com" lang="en" xmltv_id="DAZN1HD.uk" site_id="1359">DAZN 1 HD</channel> -->
+  <!-- <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySportsMainEventUHD.uk" site_id="2257">SkySportsMainEventUHD</channel>
   <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySportsF1UHD.uk" site_id="2259">Sky Sports F1 UHD</channel>
   <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySports1UHD.uk" site_id="2258">Sky Sports Ultra HD 1</channel>
-  <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySports2UHD.uk" site_id="2265">Sky Sports Ultra HD 2</channel>
+  <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySports2UHD.uk" site_id="2265">Sky Sports Ultra HD 2</channel> -->
   <channel site="player.ee.co.uk" lang="en" xmltv_id="TNTSportsUltimate.uk" site_id="http://bds.tv/services/BT_768397">TNT Sports Ultimate</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports1ROIHD.ie" site_id="2282/premier-sports-1-roi-hd">Premier Sports 1 ROI HD</channel>
   <channel site="tvireland.ie" lang="en" xmltv_id="PremierSports2ROIHD.ie" site_id="2283/premier-sports-2-roi-hd">Premier Sports 2 ROI HD</channel>
@@ -160,8 +171,8 @@
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZNLaLiga.es" site_id="DAZNLI">DAZN LALIGA</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTV.es" site_id="DAZNLI">La Liga TV</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTVHypermotion.es" site_id="MLIGS">LALIGA TV HYPERMOTION</channel>
-  <!-- <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport1.es" site_id="ESP">Eurosport 1</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport2.es" site_id="ESP2">Eurosport 2</channel> -->
+  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport1.es" site_id="ESP">Eurosport 1</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport2.es" site_id="ESP2">Eurosport 2</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="NBATV.us" site_id="32281">NBA TV</channel>
