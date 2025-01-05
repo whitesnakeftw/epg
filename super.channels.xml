@@ -81,7 +81,7 @@
   <channel site="sky.de" lang="de" xmltv_id="DAZN1HD.de" site_id="659">DAZN 1 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="DAZN2HD.de" site_id="900">DAZN 2 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportTopEventHD.de" site_id="1014">Sky Sport Top Event HD</channel>
-  <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga1HD.de" site_id="119">Sky Sport Bundesliga 1 HD</channel>
+  <!-- <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga1HD.de" site_id="119">Sky Sport Bundesliga 1 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga2HD.de" site_id="120">Sky Sport Bundesliga 2 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga3HD.de" site_id="121">Sky Sport Bundesliga 3 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga4HD.de" site_id="122">Sky Sport Bundesliga 4 HD</channel>
@@ -90,7 +90,7 @@
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga7HD.de" site_id="125">Sky Sport Bundesliga 7 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga8HD.de" site_id="126">Sky Sport Bundesliga 8 HD</channel>
   <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga9HD.de" site_id="127">Sky Sport Bundesliga 9 HD</channel>
-  <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga10HD.de" site_id="998">Sky Sport Bundesliga 10 HD</channel>
+  <channel site="sky.de" lang="de" xmltv_id="SkySportBundesliga10HD.de" site_id="998">Sky Sport Bundesliga 10 HD</channel> -->
   <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport1.de" site_id="167">Eurosport 1 DE</channel>
   <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport2.de" site_id="170">Eurosport 2 DE</channel>
   <channel site="tv.blue.ch" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="1554">SPORTDIGITAL FUSSBALL</channel>
@@ -115,8 +115,8 @@
   <channel site="movistarplus.es" lang="es" xmltv_id="DAZNLaLiga.es" site_id="DAZNLI">DAZN LALIGA</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTV.es" site_id="DAZNLI">La Liga TV</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTVHypermotion.es" site_id="MLIGS">LALIGA TV HYPERMOTION</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport1.es" site_id="ESP">Eurosport 1</channel>
-  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport2.es" site_id="ESP2">Eurosport 2</channel>
+  <!-- <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport1.es" site_id="ESP">Eurosport 1</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport2.es" site_id="ESP2">Eurosport 2</channel> -->
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="NBATV.us" site_id="32281">NBA TV</channel>
@@ -141,21 +141,22 @@
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport3.al" site_id="al/programacioni#tring-sport-3-hd">Tring Sport 3</channel>
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport4.al" site_id="al/programacioni#tring-sport-4-hd">Tring Sport 4</channel>
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport5.al" site_id="al/programacioni#tring-sport-5-hd">Tring Sport 5</channel>
-  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport.ee" site_id="go3-sport">GO3 Sport</channel>
+  <!-- <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport.ee" site_id="go3-sport">GO3 Sport</channel>
   <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport2.ee" site_id="go3-sport-2">GO3 Sport 2</channel>
   <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport3.ee" site_id="go3-sport-3">GO3 Sport 3</channel>
-  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport4.ee" site_id="go3-sport-4">GO3 Sport 4</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport4.ee" site_id="go3-sport-4">GO3 Sport 4</channel> -->
+  <channel site="teliatv.ee" lang="en" xmltv_id="Go3Sport1.ee" site_id="en#228">Go3 Sport 1</channel>
+  <channel site="teliatv.ee" lang="en" xmltv_id="Go3Sport2.ee" site_id="en#229">Go3 Sport 2</channel>
   <channel site="cgates.lt" lang="en" xmltv_id="Go3SportOpen.ee" site_id="tv3-sport-open-hd">Go3 Sport Open HD</channel>
-  <channel site="canalplus.com" lang="fr" xmltv_id="DAZN1.fr" site_id="ch#1077">DAZN 1</channel>
+  <!-- <channel site="canalplus.com" lang="fr" xmltv_id="DAZN1.fr" site_id="ch#1077">DAZN 1</channel> -->
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="DAZN1.fr" site_id="3795">DAZN 1</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="DigiSport1.ro" site_id="digi-sport-1">Digi Sport 1</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="DigiSport2.ro" site_id="digi-sport-2">Digi Sport 2</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="DigiSport3.ro" site_id="digi-sport-3">Digi Sport 3</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="DigiSport4.ro" site_id="digi-sport-4">Digi Sport 4</channel>
-  <!-- <channel site="tv-programme.com" lang="fr" xmltv_id="LEquipe.fr" site_id="1401">LA CHAINE L'EQUIPE</channel>
-  <channel site="tv-programme.com" lang="fr" xmltv_id="DAZN1.fr" site_id="3795">DAZN 1</channel> -->
-  <channel site="tvprofil.com" lang="it" xmltv_id="" site_id="it/guida-tv#rai-italia-australia">RAI Italia Australia</channel>
-  <channel site="tvprofil.com" lang="it" xmltv_id="" site_id="it/guida-tv#rai-world-premium">RAI World Premium</channel>
-  <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN2.nl" site_id="NL_000108_019561">ESPN 2</channel>
+  <channel site="tvprofil.com" lang="it" xmltv_id="RaiItalia.au" site_id="it/guida-tv#rai-italia-australia">RAI Italia Australia</channel>
+  <channel site="tvprofil.com" lang="it" xmltv_id="RaiWorldPremium" site_id="it/guida-tv#rai-world-premium">RAI World Premium</channel>
+  <!-- <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN2.nl" site_id="NL_000108_019561">ESPN 2</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN3.nl" site_id="NL_000109_019464">ESPN 3</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN4.nl" site_id="NL_000110_019562">ESPN 4</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN.nl" site_id="NL_000107_019441">ESPN</channel>
@@ -165,5 +166,22 @@
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSportRacing.nl" site_id="NL_000097_019370">Ziggo Sport Racing</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSportSelect.nl" site_id="NL_000094_019321">Ziggo Sport Select</channel>
   <channel site="ziggogo.tv" lang="en" xmltv_id="ZiggoSportTennis.nl" site_id="NL_000099_019256">Ziggo Sport Tennis</channel>
-  <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSportVoetbal.nl" site_id="NL_000095_019371">Ziggo Sport Voetbal</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSportVoetbal.nl" site_id="NL_000095_019371">Ziggo Sport Voetbal</channel> -->
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ZiggoSport.nl" site_id="ziggosport">Ziggo Sport</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ZiggoSportDocu.nl" site_id="ziggosportdocu">Ziggo Sport Docu</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ZiggoSportGolf.nl" site_id="ziggosportgolf">Ziggo Sport Golf</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ZiggoSportRacing.nl" site_id="ziggosportracing">Ziggo Sport Racing</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ZiggoSportSelect.nl" site_id="ziggosportselect">Ziggo Sport Select</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ZiggoSportTennis.nl" site_id="ziggosporttennis">Ziggo Sport Tennis</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ZiggoSportVoetbal.nl" site_id="ziggosportvoetbal">Ziggo Sport Voetbal</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ESPN2.nl" site_id="espn2">ESPN 2</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ESPN3.nl" site_id="espn3">ESPN 3</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ESPN4.nl" site_id="espn4">ESPN 4</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="ESPN.nl" site_id="espn">ESPN 1</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSportDocu2.nl" site_id="3034">Ziggo Sport Docu</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSportGolf2.nl" site_id="3032">Ziggo Sport Golf</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSportRacing2.nl" site_id="3033">Ziggo Sport Racing</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSportSelect2.nl" site_id="3030">Ziggo Sport Select</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSportTennis2.nl" site_id="3035">Ziggo Sport Tennis</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSportVoetbal2.nl" site_id="3031">Ziggo Sport Voetbal</channel>
 </channels>
