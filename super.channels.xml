@@ -178,7 +178,7 @@
   <channel site="flixed.io" lang="en" xmltv_id="NBATV.us" site_id="32281">NBA TV</channel>
   <channel site="flixed.io" lang="en" xmltv_id="MLB.us" site_id="62079">MLB Network</channel>
   <channel site="flixed.io" lang="en" xmltv_id="NFLNetwork.us" site_id="102795">NFL Network HD</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="Unbeaten.us" site_id="5e20b730f2f8d5003d739db7-633239caa6615514fb78ecf3">Unbeaten</channel>  <channel site="rally.tv" lang="en" xmltv_id="RallyTV.us" site_id="rallytv">Rally.TV</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="Unbeaten.us" site_id="5e20b730f2f8d5003d739db7-633239caa6615514fb78ecf3">Unbeaten</channel>
   <channel site="rally.tv" lang="en" xmltv_id="RallyTV.us" site_id="rallytv">Rally.TV</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="KNBC.us" site_id="us_west#69049209/knbc">KNBC</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="Eleven1.be" site_id="11football">DAZN Eleven Sports 1</channel>
@@ -212,6 +212,7 @@
   <channel site="programetv.ro" lang="ro" xmltv_id="DigiSport4.ro" site_id="digi-sport-4">Digi Sport 4</channel>
   <channel site="tvprofil.com" lang="it" xmltv_id="RaiItalia.au" site_id="it/guida-tv#rai-italia-australia">RAI Italia Australia</channel>
   <channel site="tvprofil.com" lang="it" xmltv_id="RaiWorldPremium" site_id="it/guida-tv#rai-world-premium">RAI World Premium</channel>
+  <channel site="tv.post.lu" lang="it" xmltv_id="RaiItaliaAfrica.za" site_id="763b50c0-35cd-11ed-b51f-f33d1bb9e65a">RAI Italia Africa</channel>
   <!-- <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN2.nl" site_id="NL_000108_019561">ESPN 2</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN3.nl" site_id="NL_000109_019464">ESPN 3</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN4.nl" site_id="NL_000110_019562">ESPN 4</channel>
@@ -236,10 +237,10 @@
   <channel site="tvgids.nl" lang="nl" xmltv_id="ESPN4.nl" site_id="espn4">ESPN 4</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport1.nl" site_id="3030">Ziggo Sport Select</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport2.nl" site_id="3031">Ziggo Sport Voetbal</channel>
-  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport3.nl" site_id="3033">Ziggo Sport Racing</channel>
-  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport4.nl" site_id="3035">Ziggo Sport Tennis</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport3.nl" site_id="3032">Ziggo Sport Racing</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport4.nl" site_id="3033">Ziggo Sport Tennis</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport5.nl" site_id="3034">Ziggo Sport Docu</channel>
-  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport6.nl" site_id="3032">Ziggo Sport Golf</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport6.nl" site_id="3035">Ziggo Sport Golf</channel>
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSports1.fr" site_id="66265DD1-D2AA-4A89-9412-2455186E90ED">beIN SPORTS 1</channel>
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSports2.fr" site_id="1E886E98-3104-4D8E-A97F-734B23108E8A">beIN SPORTS 2</channel>
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSports3.fr" site_id="6DB008B8-66DA-423E-805D-616211D4B174">beIN SPORTS 3</channel>
@@ -250,4 +251,40 @@
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax8.fr" site_id="76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A">beIN SPORTS MAX 8</channel>
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax9.fr" site_id="FB208953-1C70-4D1E-B918-103AB02AB181">beIN SPORTS MAX 9</channel>
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax10.fr" site_id="6F425028-14F0-4E38-B776-71A9DB3F3493">beIN SPORTS MAX 10</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="Sport1.cz" site_id="10074">Sport 1 HD</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="Sport2.cz" site_id="10075">Sport 2 HD</channel>
+  <!-- <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport1.cz" site_id="10080">Nova Sport 1 HD</channel>
+  <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport2.cz" site_id="10081">Nova Sport 2 HD</channel> -->
+  <channel site="tv.mail.ru" lang="ru" xmltv_id="Match.ru" site_id="2060">МАТЧ!</channel>
+  <channel site="tv.mail.ru" lang="ru" xmltv_id="MatchArena.ru" site_id="2123">МАТЧ! Арена</channel>
+  <channel site="tv.mail.ru" lang="ru" xmltv_id="MatchFutbol1.ru" site_id="864">МАТЧ! Футбол 1</channel>
+  <channel site="tv.mail.ru" lang="ru" xmltv_id="MatchFutbol2.ru" site_id="1552">МАТЧ! Футбол 2</channel>
+  <channel site="tv.mail.ru" lang="ru" xmltv_id="MatchFutbol3.ru" site_id="1810">МАТЧ! Футбол 3</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport1.hr" site_id="190">Arenasport 1</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport2.hr" site_id="453">Arenasport 2</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport3.hr" site_id="192">Arenasport 3</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport4.hr" site_id="193">Arenasport 4</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport5.hr" site_id="194">Arenasport 5</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport6.hr" site_id="376">Arenasport 6</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport7.hr" site_id="801">Arenasport 7</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport8.hr" site_id="802">Arenasport 8</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport9.hr" site_id="803">Arenasport 9</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport10.hr" site_id="804">Arenasport 10</channel>
+  <!--
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport1Premium.rs" site_id="700#851">Arena PREMIUM 1</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport2Premium.rs" site_id="701#852">Arena PREMIUM 2</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport3Premium.rs" site_id="302#850">Arena PREMIUM 3</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport1.rs" site_id="703#53">Arena Sport 1</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport2.rs" site_id="153#54">Arena Sport 2</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport3.rs" site_id="154#55">Arena Sport 3</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport4.rs" site_id="155#56">Arena Sport 4</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport5.rs" site_id="156#267">Arena Sport 5</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport6.rs" site_id="157#835">Arena Sport 6</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport7.rs" site_id="158#836">Arena Sport 7</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport8.rs" site_id="159#837">Arena Sport 8</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport9.rs" site_id="160#884">Arena Sport 9</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport10.rs" site_id="161#885">Arena Sport 10</channel>
+  <channel site="mts.rs" lang="sr" xmltv_id="ArenaSport1x2.rs" site_id="163#797">Arena Sport 1x2</channel>
+  <channel site="mts.rs" lang="bs" xmltv_id="ArenaPremierLeague.rs" site_id="313#880">Premier League TV</channel>
+  -->
 </channels>

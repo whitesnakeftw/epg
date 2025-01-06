@@ -3,6 +3,7 @@
 /channels.xml
 /guide.xml
 /guide.xml.gz
+/test.channels.xml
 
 # macOS
 .DS_Store
