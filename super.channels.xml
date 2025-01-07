@@ -213,6 +213,7 @@
   <channel site="tvprofil.com" lang="it" xmltv_id="RaiItalia.au" site_id="it/guida-tv#rai-italia-australia">RAI Italia Australia</channel>
   <channel site="tvprofil.com" lang="it" xmltv_id="RaiWorldPremium" site_id="it/guida-tv#rai-world-premium">RAI World Premium</channel>
   <channel site="tv.post.lu" lang="it" xmltv_id="RaiItaliaAfrica.za" site_id="763b50c0-35cd-11ed-b51f-f33d1bb9e65a">RAI Italia Africa</channel>
+  <channel site="tv.post.lu" lang="it" xmltv_id="MediasetItalia.it" site_id="bc52db70-9451-11ea-ab5f-f305cd6d02f2">Mediaset Italia</channel>
   <!-- <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN2.nl" site_id="NL_000108_019561">ESPN 2</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN3.nl" site_id="NL_000109_019464">ESPN 3</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN4.nl" site_id="NL_000110_019562">ESPN 4</channel>
@@ -287,4 +288,24 @@
   <channel site="mts.rs" lang="sr" xmltv_id="ArenaSport1x2.rs" site_id="163#797">Arena Sport 1x2</channel>
   <channel site="mts.rs" lang="bs" xmltv_id="ArenaPremierLeague.rs" site_id="313#880">Premier League TV</channel>
   -->
+  <channel site="i.mjh.nz" lang="it" xmltv_id="SportitaliaSolocalcio.it" site_id="SamsungTVPlus/it#ITBC4700002CO">Solocalcio</channel>
+  <channel site="i.mjh.nz" lang="it" xmltv_id="FIFA+.it" site_id="SamsungTVPlus/it#ITBD1000002HF">FIFA+</channel>
+  <channel site="tv.blue.ch" lang="it" xmltv_id="VideoItaliaTV.it" site_id="647">Video Italia TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="RedBullTV.uk" site_id="SamsungTVPlus/gb#GBBD2300003IK">Red Bull TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="EuronewsItalian.fr" site_id="Plex/all#5e20b730f2f8d5003d739db7-6245f13093b402a3d1097789">Euronews Italiano</channel>
+  <channel site="i.mjh.nz" lang="it" xmltv_id="YuGiOh.it" site_id="SamsungTVPlus/it#ITBD1000003NB">Yu-Gi-Oh!</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="LEquipe.fr" site_id="#451">L'EQUIPE</channel>
+  <channel site="i.mjh.nz" lang="de" xmltv_id="DAZNFast+.de" site_id="SamsungTVPlus/de#DEBC470000128">DAZN FAST+</channel>
+  <channel site="i.mjh.nz" lang="de" xmltv_id="DAZNRise.de" site_id="SamsungTVPlus/de#DEBD700001C5">DAZN Rise</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="DAZNWomensFootball.uk" site_id="SamsungTVPlus/gb#GBBD3000002UT">DAZN Women&apos;s Football</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="DAZNCombat.uk" site_id="64d626ac9b414d000820e2fc">DAZN Combat</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PGATour.us" site_id="PlutoTV/us#5de94dacb394a300099fa22a">PGA TOUR</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="ACLCornholeTV.us" site_id="5e20b730f2f8d5003d739db7-63504925a97bd70eaef54f01">ACL Cornhole TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="BoxingTV.us" site_id="SamsungTVPlus/in#INBA5100007ME">Boxing TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="BilliardTV.us" site_id="SamsungTVPlus/us#USBD12000183X">Billiard TV</channel>
+  <channel site="pluto.tv" lang="sv" xmltv_id="PadeltimeTV.sv" site_id="65c242c8d77d450008badd8b">Padeltime TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="Motorvision.de" site_id="Plex/all#5e20b730f2f8d5003d739db7-603fb593a99efc002dbf90e4">Motorvision TV</channel>
+  <channel site="sky.com" lang="en" xmltv_id="Eurosport1.uk" site_id="1726">Eurosport 1</channel>
+  <channel site="sky.com" lang="en" xmltv_id="Eurosport2.uk" site_id="1841">Eurosport 2</channel>
+
 </channels>
