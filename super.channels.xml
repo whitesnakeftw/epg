@@ -175,6 +175,7 @@
   <channel site="movistarplus.es" lang="es" xmltv_id="Eurosport2.es" site_id="ESP2">Eurosport 2</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="NBCSports.us" site_id="50#99951253">NBC Sports</channel>
   <channel site="flixed.io" lang="en" xmltv_id="NBATV.us" site_id="32281">NBA TV</channel>
   <channel site="flixed.io" lang="en" xmltv_id="MLB.us" site_id="62079">MLB Network</channel>
   <channel site="flixed.io" lang="en" xmltv_id="NFLNetwork.us" site_id="102795">NFL Network HD</channel>
@@ -303,7 +304,7 @@
   <channel site="plex.tv" lang="en" xmltv_id="ACLCornholeTV.us" site_id="5e20b730f2f8d5003d739db7-63504925a97bd70eaef54f01">ACL Cornhole TV</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="BoxingTV.us" site_id="SamsungTVPlus/in#INBA5100007ME">Boxing TV</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="BilliardTV.us" site_id="SamsungTVPlus/us#USBD12000183X">Billiard TV</channel>
-  <channel site="pluto.tv" lang="sv" xmltv_id="PadeltimeTV.sv" site_id="65c242c8d77d450008badd8b">Padeltime TV</channel>
+  <!-- <channel site="pluto.tv" lang="sv" xmltv_id="PadeltimeTV.sv" site_id="65c242c8d77d450008badd8b">Padeltime TV</channel> -->
   <channel site="i.mjh.nz" lang="en" xmltv_id="Motorvision.de" site_id="Plex/all#5e20b730f2f8d5003d739db7-603fb593a99efc002dbf90e4">Motorvision TV</channel>
   <channel site="sky.com" lang="en" xmltv_id="Eurosport1.uk" site_id="1726">Eurosport 1</channel>
   <channel site="sky.com" lang="en" xmltv_id="Eurosport2.uk" site_id="1841">Eurosport 2</channel>
