@@ -262,7 +262,7 @@
   <channel site="tv.mail.ru" lang="ru" xmltv_id="MatchFutbol1.ru" site_id="864">МАТЧ! Футбол 1</channel>
   <channel site="tv.mail.ru" lang="ru" xmltv_id="MatchFutbol2.ru" site_id="1552">МАТЧ! Футбол 2</channel>
   <channel site="tv.mail.ru" lang="ru" xmltv_id="MatchFutbol3.ru" site_id="1810">МАТЧ! Футбол 3</channel>
-  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport1.hr" site_id="190">Arenasport 1</channel>
+  <!-- <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport1.hr" site_id="190">Arenasport 1</channel>
   <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport2.hr" site_id="453">Arenasport 2</channel>
   <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport3.hr" site_id="192">Arenasport 3</channel>
   <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport4.hr" site_id="193">Arenasport 4</channel>
@@ -271,7 +271,28 @@
   <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport7.hr" site_id="801">Arenasport 7</channel>
   <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport8.hr" site_id="802">Arenasport 8</channel>
   <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport9.hr" site_id="803">Arenasport 9</channel>
-  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport10.hr" site_id="804">Arenasport 10</channel>
+  <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport10.hr" site_id="804">Arenasport 10</channel> -->
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport1.hr" site_id="274914856088">Arenasport 1</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport2.hr" site_id="282238503965">Arenasport 2</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport3.hr" site_id="282238503966">Arenasport 3</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport4.hr" site_id="282238503968">Arenasport 4</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport5.hr" site_id="282235944358">Arenasport 5</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport6.hr" site_id="282238503971">Arenasport 6</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport7.hr" site_id="282235944384">Arenasport 7</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport8.hr" site_id="282235944385">Arenasport 8</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport9.hr" site_id="282237992142">Arenasport 9</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport10.hr" site_id="282237992144">Arenasport 10</channel>
+
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport1Premium.ba" site_id="ba/tvprogram#arena-sport-1-premium-bih">Arena Sport 1 Premium</channel>
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport2Premium.ba" site_id="ba/tvprogram#arena-sport-2-premium-bih">Arena Sport 2 Premium</channel>
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport3Premium.ba" site_id="ba/tvprogram#arena-sport-3-premium-bih">Arena Sport 3 Premium</channel>
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport1.ba" site_id="ba/tvprogram#arena-sport-1-ba">Arena Sport 1</channel>
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport2.ba" site_id="ba/tvprogram#arena-sport-2-bih">Arena Sport 2</channel>
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport3.ba" site_id="ba/tvprogram#arena-sport-3-bih">Arena Sport 3</channel>
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport4.ba" site_id="ba/tvprogram#arena-sport-4-bih">Arena Sport 4</channel>
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport5.ba" site_id="ba/tvprogram#arena-sport-5-bih">Arena Sport 5</channel>
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport6.ba" site_id="ba/tvprogram#arena-sport-6-bih">Arena Sport 6</channel>
+  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport1x2.ba" site_id="ba/tvprogram#arena-sport-1x2">Arena Sport 1x2</channel>
   <!--
   <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport1Premium.rs" site_id="700#851">Arena PREMIUM 1</channel>
   <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport2Premium.rs" site_id="701#852">Arena PREMIUM 2</channel>

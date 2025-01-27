@@ -26,7 +26,7 @@ module.exports = {
         title: item.title,
         description: item.description,
         category: item.category,
-        icon: item.image,
+        image: item.image,
         start: parseStart(item).toJSON(),
         stop: parseStop(item).toJSON()
       })
@@ -41,7 +41,7 @@ module.exports = {
     const pages = Array.from(Array(totalPages).keys())
     for (let page of pages) {
       const data = await axios
-        .get(`https://mtel.ba/oec/epg/program`, {
+        .get('https://mtel.ba/oec/epg/program', {
           params: { page, date: dayjs().format('YYYY-MM-DD') },
           headers: {
             'X-Requested-With': 'XMLHttpRequest'
@@ -65,7 +65,7 @@ module.exports = {
 
 async function getTotalPageCount() {
   const data = await axios
-    .get(`https://mtel.ba/oec/epg/program`, {
+    .get('https://mtel.ba/oec/epg/program', {
       params: { page: 0, date: dayjs().format('YYYY-MM-DD') },
       headers: {
         'X-Requested-With': 'XMLHttpRequest'

@@ -19,6 +19,7 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="022#341">Kitchen TV HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="023#485">Bloomberg Adria HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="024#28">SKAJ +</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="24#405">Dexy TV HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="025#339">Arena Sport 1 HD BiH</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="028#29">K:CN</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="033#495">Ekovizija HD</channel>
@@ -33,27 +34,29 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="054#283">BHT HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="055#289">BN HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="056#39">RTV HIT</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="057#228">AL Jazeera Balkans HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="057#41">Herceg TV</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="057#228">AL Jazeera Balkans HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="058#43">TV SLOBOMIR</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="059#44">BEL TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="060#47">RTV I.Sarajevo</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="061#51">ELTA 1 HD</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="061#263">Hayat HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="062#71">RTVIS</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="063#73">ARENA</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="064#78">ALFA TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="065#86">TV SIMIĆ</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="067#107">TV 1000</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="067#90">TV Prijedor</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="069#110">AXN</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="067#107">TV 1000</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="069#96">NTV 101</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="069#110">AXN</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="070#112">AXN Spin</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="070#265">NTV Arena</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="071#282">Epic Drama</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="072#305">Sci Fi</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="072#81">RTV KD</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="072#305">Sci Fi</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="075#262">BDC TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="077#269">IN TV</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="077#428">TV 101</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="081#291">ONE</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="082#292">Info Plus</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="085#286">FilmBox Premium</channel>
@@ -71,35 +74,35 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="101#53">Arena Sport 1</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="102#54">Arena Sport 2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="103#55">Arena Sport 3</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="104#498">Arena Sport 5</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="104#56">Arena Sport 4</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="105#499">Arena Sport 6</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="104#498">Arena Sport 5</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="105#57">Arena Sport HR</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="105#499">Arena Sport 6</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="106#58">Eurosport 1</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="106#327">RTS 3</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="106#398">NBA TV HD</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="106#58">Eurosport 1</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="107#59">Eurosport 2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="108#385">RTV 2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="109#400">Zvezda TV HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="110#328">BTV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="111#329">Al Jazeera</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="112#343">BN</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="120#445">DTX</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="120#66">SOS Kanal</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="121#332">Travel Channel</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="120#445">DTX</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="121#67">Fight Network</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="121#332">Travel Channel</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="122#68">FightBox</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="123#70">Fast&amp;FunBox</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="124#69">Trace Sport Stars</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="129#488">Premier League TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="130#72">Arena Sport 1 HD</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="131#333">BBC Earth</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="131#74">Arena Sport 2 HD</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="131#333">BBC Earth</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="132#75">Arena Sport 3 HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="133#76">Arena Sport 4 HD</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="134#77">Arena Sport 1 HD Srbija</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="134#121">National Geographic Wild</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="134#496">Arena Sport 5 HD</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="134#77">Arena Sport 1 HD Srbija</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="135#134">History2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="135#406">Arena Esport HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="135#497">Arena Sport 6 HD</channel>
@@ -127,15 +130,14 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="182#270">Extreme Sports</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="201#387">Dečija TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="202#438">Cartoon Network</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="205#459">RTL KOCKICA HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="205#89">Minimax</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="205#459">RTL KOCKICA HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="208#94">Nickelodeon</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="209#95">NICK JR.</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="211#98">Da Vinci Learning</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="212#399">Tropik TV HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="217#285">Gametoon HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="218#424">NickToons</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="24#405">Dexy TV HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="304#114">FOX</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="305#116">FOX LIFE</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="335#391">Timeless Dizi Channel</channel>
@@ -178,6 +180,7 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="606#183">OK Kanal</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="607#230">R&amp;R Muzzik</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="617#190">HiFi Music</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="628#203">PINK FOLK 2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="628#415">Keno TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="631#209">Pink Folk</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="" site_id="634#212">Svetska srpska televizija</channel>
@@ -208,9 +211,7 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="AmariTV.rs" site_id="655#370">Amari</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="ArenaEsport.rs" site_id="050#471">Arena Esport</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="ArenaFightHD.si" site_id="115#458">Arena Fight HD</channel>
-  <channel site="mtel.ba" lang="sr" xmltv_id="ArenaSport1x2.rs" site_id="126#441">Arena sport 1x2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="B92.rs" site_id="030#359">B92</channel>
-  <channel site="mtel.ba" lang="en" xmltv_id="BabesTV.us" site_id="914#373">Babes TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="BalkanTripTV.rs" site_id="513#408">Balkan Trip</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="BalkanTripTVHD.rs" site_id="027#460">Balkan Trip HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="BalkanTV.rs" site_id="029#284">Balkan TV</channel>
@@ -223,9 +224,7 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="BNMusic.ba" site_id="625#192">BN Music</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="BNTV.ba" site_id="002#12">BN TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="BravoMusic.rs" site_id="258#206">Bravo Music</channel>
-  <channel site="mtel.ba" lang="en" xmltv_id="BrazzersTVEurope.us" site_id="191#300">Brazzers TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="BVN.nl" site_id="810#281">BVN</channel>
-  <channel site="mtel.ba" lang="en" xmltv_id="CGTNEurope.cn" site_id="809#207">CGTN</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="CityPlay.rs" site_id="630#208">City Play</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="DexyTV.rs" site_id="024#423">Dexy TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="DMSat.rs" site_id="627#199">DM SAT</channel>
@@ -234,12 +233,12 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="DWEnglish.de" site_id="177#336">DW English</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="EGMelody.rs" site_id="650#365">EG Melody</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="Ekovizija.rs" site_id="052#494">Ekovizija</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="Erotic.rs" site_id="194#303">Erotic</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="Erotic.rs" site_id="906#179">Pink Erotic</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="Erotic2.rs" site_id="195#352">Erotic 2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="Erotic2.rs" site_id="907#181">Pink Erotic 2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="Erotic5.rs" site_id="906#186">Pink Erotic 5</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="Erotic6.rs" site_id="907#188">Pink Erotic 6</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="Erotic.rs" site_id="194#303">Erotic</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="Erotic.rs" site_id="906#179">Pink Erotic</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="EuronewsSerbia.rs" site_id="018#450">Euronews Serbia</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="EXYUMelody.rs" site_id="652#367">EX YU Melody</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="FACETV.ba" site_id="055#37">FACE TV</channel>
@@ -248,11 +247,8 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="FolkMelody.rs" site_id="653#368">Folk Melody</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="HAHA.rs" site_id="661#219">HA HA</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="Happy.rs" site_id="014#6">Happy TV</channel>
-  <channel site="mtel.ba" lang="sr" xmltv_id="HappyReality1.rs" site_id="665#371">Happy Reality 1</channel>
-  <channel site="mtel.ba" lang="sr" xmltv_id="HappyReality2.rs" site_id="666#372">Happy Reality 2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="Hayat.ba" site_id="054#35">HAYAT TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="HayatFolk.ba" site_id="662#223">HAYAT FOLK</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="HayatHD.ba" site_id="061#263">Hayat HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="HayatMusic.ba" site_id="661#222">HAYAT MUSIC</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="Hayatovci.ba" site_id="213#100">HAYATOVCI</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="HayatPlus.ba" site_id="073#83">HAYAT PLUS</channel>
@@ -262,8 +258,6 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="HRT1HD.hr" site_id="045#454">HRT 1 HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="HRT2.hr" site_id="031#31">HRT 2</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="HRT2HD.hr" site_id="046#455">HRT 2 HD</channel>
-  <channel site="mtel.ba" lang="hr" xmltv_id="HRT3.hr" site_id="042#32">HRT 3</channel>
-  <channel site="mtel.ba" lang="hr" xmltv_id="HRT4HD.hr" site_id="049#486">HRT 4 HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="HustlerTVEurope.nl" site_id="903#173">HUSTLER</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="HypeTV.rs" site_id="046#440">Hype TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="InstaTV.rs" site_id="026#493">Insta TV</channel>
@@ -277,8 +271,6 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="Koreni.rs" site_id="119#331">Koreni</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="KurirTV.rs" site_id="008#421">Kurir TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="KuvoTV.ba" site_id="075#470">Kuvo TV</channel>
-  <channel site="mtel.ba" lang="en" xmltv_id="LFCTV.uk" site_id="142#435">Liverpool FC TV</channel>
-  <channel site="mtel.ba" lang="en" xmltv_id="LFCTVHD.uk" site_id="114#473">Liverpool FC TV HD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="LOL.rs" site_id="153#220">LOL</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="Mezzo.fr" site_id="645#264">Mezzo Tv</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="MezzoLive.fr" site_id="646#213">Mezzo Live HD</channel>
@@ -299,25 +291,23 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkComedy.rs" site_id="059#146">Pink Comedy</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkCrimeMystery.rs" site_id="058#136">Pink Crime &amp; Mystery</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkExtra.rs" site_id="660#218">PINK EXTRA</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="PinkFamily.rs" site_id="090#152">Pink Family</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkFamily.rs" site_id="12#1">Pink Family</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="PinkFamily.rs" site_id="090#152">Pink Family</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkFashion.rs" site_id="504#151">Pink Fashion</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkFilm.rs" site_id="335#164">Pink Film</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="PinkFolk2.rs" site_id="628#203">PINK FOLK 2</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="PinkHits.rs" site_id="615#180">PINK HITS</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkHits2.rs" site_id="615#185">Pink Hits 2</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="PinkHits.rs" site_id="615#180">PINK HITS</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkHorror.rs" site_id="064#159">Pink Horror</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkKids.rs" site_id="207#92">Pink Kids</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkKoncert.rs" site_id="613#178">PINK KONCERT</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkKuvar.rs" site_id="506#155">Pink Kuvar</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkM.me" site_id="047#42">PINK M</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkMovies.rs" site_id="055#145">Pink Movies</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="PinkMusic.rs" site_id="611#174">Pink Music</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkMusic2.rs" site_id="612#176">Pink Music 2</channel>
+  <channel site="mtel.ba" lang="bs" xmltv_id="PinkMusic.rs" site_id="611#174">Pink Music</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkPedia.rs" site_id="417#142">PINK PEDIA</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkPlus.rs" site_id="659#217">PINK PLUS</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkPremium.rs" site_id="054#126">Pink Premium</channel>
-  <channel site="mtel.ba" lang="sr" xmltv_id="PinkReality.rs" site_id="123#221">Pink Reality</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkRomance.rs" site_id="062#143">Pink Romance</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkSciFiFantasy.rs" site_id="063#149">Pink Sci-Fi &amp; Fantasy</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkSerije.rs" site_id="336#165">Pink Serije</channel>
@@ -327,7 +317,6 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkSuperKids.rs" site_id="206#91">Pink Super Kids</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkThriller.rs" site_id="057#133">Pink Thriller</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkWestern.rs" site_id="061#154">Pink Western</channel>
-  <channel site="mtel.ba" lang="sr" xmltv_id="PinkWorld.rs" site_id="657#215">PINK WORLD</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkWorldCinema.rs" site_id="065#129">Pink World Cinema</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PinkZabava.rs" site_id="650#214">PINK ZABAVA</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PopMelody.rs" site_id="651#366">Pop Melody</channel>
@@ -340,18 +329,13 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="PrvaFiles.rs" site_id="341#364">Prva Files</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PrvaKick.rs" site_id="095#324">Prva Kick</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PrvaKick.rs" site_id="342#362">Prva Kick</channel>
-  <channel site="mtel.ba" lang="sr" xmltv_id="PrvaLife.rs" site_id="093#322">Prva Life</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PrvaLife.rs" site_id="340#363">Prva Life</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PrvaMax.rs" site_id="020#313">Prva MAX</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PrvaMax.rs" site_id="031#360">Prva Max</channel>
-  <channel site="mtel.ba" lang="sr" xmltv_id="PrvaWorld.rs" site_id="096#325">Prva World</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="PrvaWorld.rs" site_id="343#361">Prva World</channel>
-  <channel site="mtel.ba" lang="en" xmltv_id="RealityKingsTV.us" site_id="915#374">Realty Kings</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="RedTV.rs" site_id="022#430">Red TV</channel>
-  <channel site="mtel.ba" lang="en" xmltv_id="RT.ru" site_id="804#198">RT NEWS TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="RTLCroatiaWorld.hr" site_id="154#447">RTL Croatia World</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="RTLKockica.hr" site_id="210#97">RTL KOCKICA</channel>
-  <channel site="mtel.ba" lang="hr" xmltv_id="RTLLiving.hr" site_id="508#158">RTL Living</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="RTRSplus.ba" site_id="009#18">RTRS Plus</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="RTRSTV.ba" site_id="001#11">RTRS</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="RTS1.rs" site_id="011#3">RTS 1</channel>
@@ -369,7 +353,6 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="RTSZivot.rs" site_id="091#45">RTS Život</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="RTV1.rs" site_id="024#22">RTV 1</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="RTVVikom.ba" site_id="053#33">VIKOM</channel>
-  <channel site="mtel.ba" lang="ru" xmltv_id="Russia24.ru" site_id="802#195">RUSSIA 24</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="SAT1.de" site_id="805#351">SAT.1</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="SOSKanalPlus.rs" site_id="034#315">SOS Kanal Plus</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="StarCrime.bg" site_id="307#117">FOX CRIME</channel>
@@ -386,7 +369,6 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="ToxicRap.rs" site_id="166#449">Toxic Rap</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="ToxicTV.rs" site_id="618#407">Toxic TV</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="TurizamTV.rs" site_id="512#401">Turizam TV</channel>
-  <channel site="mtel.ba" lang="bs" xmltv_id="TV101.rs" site_id="077#428">TV 101</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="TVCGMNE.me" site_id="045#38">RTCG Sat</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="TVDR.rs" site_id="514#410">TV DR</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="TVHram.rs" site_id="039#354">Hram TV</channel>
@@ -407,8 +389,11 @@
   <channel site="mtel.ba" lang="bs" xmltv_id="ZadrugaLive3.rs" site_id="669#396">Zadruga 3</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="ZadrugaLive4.rs" site_id="670#397">Zadruga 4</channel>
   <channel site="mtel.ba" lang="bs" xmltv_id="ZelenaTVzdravlje.rs" site_id="507#280">Zelena TV Zdravlje</channel>
+  <channel site="mtel.ba" lang="en" xmltv_id="" site_id="809#207">CGTN</channel>
   <channel site="mtel.ba" lang="en" xmltv_id="360TuneBox.nl" site_id="602#169">360 Tune Box</channel>
+  <channel site="mtel.ba" lang="en" xmltv_id="BabesTV.us" site_id="914#373">Babes TV</channel>
   <channel site="mtel.ba" lang="en" xmltv_id="BabyTV.uk" site_id="203#85">BABY TV</channel>
+  <channel site="mtel.ba" lang="en" xmltv_id="BrazzersTVEurope.us" site_id="191#300">Brazzers TV</channel>
   <channel site="mtel.ba" lang="en" xmltv_id="Erotic3.rs" site_id="904#182">Pink Erotic 3</channel>
   <channel site="mtel.ba" lang="en" xmltv_id="Erotic4.rs" site_id="905#184">Pink Erotic 4</channel>
   <channel site="mtel.ba" lang="en" xmltv_id="Erotic7.rs" site_id="908#189">Pink Erotic 7</channel>
@@ -416,5 +401,20 @@
   <channel site="mtel.ba" lang="en" xmltv_id="EroX.nl" site_id="900#175">EROX</channel>
   <channel site="mtel.ba" lang="en" xmltv_id="EroXXX.nl" site_id="901#177">EROXXX</channel>
   <channel site="mtel.ba" lang="en" xmltv_id="JimJamEurope.uk" site_id="214#271">Jim Jam</channel>
+  <channel site="mtel.ba" lang="en" xmltv_id="LFCTV.uk" site_id="142#435">Liverpool FC TV</channel>
+  <channel site="mtel.ba" lang="en" xmltv_id="LFCTVHD.uk" site_id="114#473">Liverpool FC TV HD</channel>
   <channel site="mtel.ba" lang="en" xmltv_id="MTVHitsEurope.uk" site_id="601#168">MTV Hits International</channel>
+  <channel site="mtel.ba" lang="en" xmltv_id="RealityKingsTV.us" site_id="915#374">Realty Kings</channel>
+  <channel site="mtel.ba" lang="en" xmltv_id="RT.ru" site_id="804#198">RT NEWS TV</channel>
+  <channel site="mtel.ba" lang="hr" xmltv_id="HRT3.hr" site_id="042#32">HRT 3</channel>
+  <channel site="mtel.ba" lang="hr" xmltv_id="HRT4HD.hr" site_id="049#486">HRT 4 HD</channel>
+  <channel site="mtel.ba" lang="hr" xmltv_id="RTLLiving.hr" site_id="508#158">RTL Living</channel>
+  <channel site="mtel.ba" lang="ru" xmltv_id="Russia24.ru" site_id="802#195">RUSSIA 24</channel>
+  <channel site="mtel.ba" lang="sr" xmltv_id="ArenaSport1x2.rs" site_id="126#441">Arena sport 1x2</channel>
+  <channel site="mtel.ba" lang="sr" xmltv_id="HappyReality1.rs" site_id="665#371">Happy Reality 1</channel>
+  <channel site="mtel.ba" lang="sr" xmltv_id="HappyReality2.rs" site_id="666#372">Happy Reality 2</channel>
+  <channel site="mtel.ba" lang="sr" xmltv_id="PinkReality.rs" site_id="123#221">Pink Reality</channel>
+  <channel site="mtel.ba" lang="sr" xmltv_id="PinkWorld.rs" site_id="657#215">PINK WORLD</channel>
+  <channel site="mtel.ba" lang="sr" xmltv_id="PrvaLife.rs" site_id="093#322">Prva Life</channel>
+  <channel site="mtel.ba" lang="sr" xmltv_id="PrvaWorld.rs" site_id="096#325">Prva World</channel>
 </channels>
