@@ -19,7 +19,7 @@ module.exports = {
   site: 'nostv.pt',
   days: 2,
   url({ channel, date }) {
-    return `https://tyr-prod.apigee.net/nostv/ott/schedule/range/contents/guest?channels=${
+    return `https://api.clg.nos.pt/nostv/ott/schedule/range/contents/guest?channels=${
       channel.site_id
     }&minDate=${date.format('YYYY-MM-DD')}T00:00:00Z&maxDate=${date.format(
       'YYYY-MM-DD'

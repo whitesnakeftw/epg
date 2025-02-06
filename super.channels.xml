@@ -87,7 +87,8 @@
   <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa1.ch" site_id="356">RSI La 1</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa2.ch" site_id="357">RSI LA 2</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="Sportitalia.it" site_id="1387">SPORTITALIA</channel>
-  <channel site="tivu.tv" lang="it" xmltv_id="DAZN1.it" site_id="232">Zona DAZN</channel>
+  <channel site="tvprofil.com" lang="it" xmltv_id="DAZN1.it" site_id="it/guida-tv#dazn-it">DAZN IT</channel>
+  <!-- <channel site="tivu.tv" lang="it" xmltv_id="DAZN1.it" site_id="232">Zona DAZN</channel> -->
   <channel site="tivu.tv" lang="it" xmltv_id="DAZN2.it" site_id="231">Zona DAZN 2</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="DAZN1.pt" site_id="518">ELEVEN SPORTS 1</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="DAZN2.pt" site_id="519">ELEVEN SPORTS 2</channel>
@@ -333,6 +334,9 @@
   <channel site="i.mjh.nz" lang="de" xmltv_id="DAZNRise.de" site_id="SamsungTVPlus/de#DEBD700001C5">DAZN Rise</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="DAZNWomensFootball.uk" site_id="SamsungTVPlus/gb#GBBD3000002UT">DAZN Women&apos;s Football</channel>
   <channel site="pluto.tv" lang="en" xmltv_id="DAZNCombat.uk" site_id="64d626ac9b414d000820e2fc">DAZN Combat</channel>
+  <channel site="pluto.tv" lang="de" xmltv_id="DAZNDartsxPlutoTV.de" site_id="64b67f0424ade50008a3be17">DAZN Darts x Pluto TV</channel>
+  <channel site="pluto.tv" lang="de" xmltv_id="DAZNHandballxPlutoTV.de" site_id="6683f7fe36a2f9000804940c">DAZN Handball x Pluto TV</channel>
+  <channel site="pluto.tv" lang="de" xmltv_id="DAZNHeldinnenxPlutoTV.de" site_id="64afe50c5dc16600087f3227">DAZN Heldinnen x Pluto TV</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PGATour.us" site_id="PlutoTV/us#5de94dacb394a300099fa22a">PGA TOUR</channel>
   <channel site="plex.tv" lang="en" xmltv_id="ACLCornholeTV.us" site_id="5e20b730f2f8d5003d739db7-63504925a97bd70eaef54f01">ACL Cornhole TV</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="BoxingTV.us" site_id="SamsungTVPlus/in#INBA5100007ME">Boxing TV</channel>
@@ -341,4 +345,26 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="Motorvision.de" site_id="Plex/all#5e20b730f2f8d5003d739db7-603fb593a99efc002dbf90e4">Motorvision TV</channel>
   <channel site="sky.com" lang="en" xmltv_id="Eurosport1.uk" site_id="1726">Eurosport 1</channel>
   <channel site="sky.com" lang="en" xmltv_id="Eurosport2.uk" site_id="1841">Eurosport 2</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="Eurosport1.sk" site_id="10072">Eurosport 1 HD</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="Eurosport2.sk" site_id="10073">Eurosport 2 HD</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub1.rs" site_id="rs/tvprogram#sport-klub">Sport Klub 1 Srbija</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub2.rs" site_id="rs/tvprogram#sportklub-plus-rs">Sport Klub 2 Srbija</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub3.rs" site_id="rs/tvprogram#sportklub-plus-prime-srbija">Sport Klub 3</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub4.rs" site_id="rs/tvprogram#sport-klub-4">Sport Klub 4</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub5.rs" site_id="rs/tvprogram#sport-klub-5">Sport Klub 5</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub6.rs" site_id="rs/tvprogram#sport-klub-6">Sport Klub 6</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport1Premium.rs" site_id="me/tvprogram#arena-sport-1-premium">Arena Sport 1 Premium</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport2Premium.rs" site_id="me/tvprogram#arena-sport-2-premium">Arena Sport 2 Premium</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport3Premium.rs" site_id="me/tvprogram#arena-sport-3-premium">Arena Sport 3 Premium</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport1.rs" site_id="me/tvprogram#tv-arena-sport-1">Arena Sport 1 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport2.rs" site_id="me/tvprogram#tv-arena-sport-2">Arena Sport 2 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport3.rs" site_id="me/tvprogram#tv-arena-sport-3">Arena Sport 3 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport4.rs" site_id="me/tvprogram#tv-arena-sport-4">Arena Sport 4 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport5.rs" site_id="me/tvprogram#arena-sport-5">Arena Sport 5 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport6.rs" site_id="me/tvprogram#arena-sport-6">Arena Sport 6 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport7.rs" site_id="me/tvprogram#arena-sport-7">Arena Sport 7 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport8.rs" site_id="me/tvprogram#arena-sport-8">Arena Sport 8 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport9.rs" site_id="me/tvprogram#arena-sport-9-rs">Arena Sport 9 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport10.rs" site_id="me/tvprogram#arena-sport-10-rs">Arena Sport 10 RS</channel>
+  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport1x2.rs" site_id="me/tvprogram#arena-sport-1x2">Arena Sport 1x2</channel>
 </channels>
