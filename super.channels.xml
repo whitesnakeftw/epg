@@ -215,9 +215,11 @@
   <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport2.ee" site_id="go3-sport-2">GO3 Sport 2</channel>
   <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport3.ee" site_id="go3-sport-3">GO3 Sport 3</channel>
   <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport4.ee" site_id="go3-sport-4">GO3 Sport 4</channel> -->
-  <channel site="teliatv.ee" lang="en" xmltv_id="Go3Sport1.ee" site_id="en#228">Go3 Sport 1</channel>
+  <!-- <channel site="teliatv.ee" lang="en" xmltv_id="Go3Sport1.ee" site_id="en#228">Go3 Sport 1</channel>
   <channel site="teliatv.ee" lang="en" xmltv_id="Go3Sport2.ee" site_id="en#229">Go3 Sport 2</channel>
-  <channel site="cgates.lt" lang="en" xmltv_id="Go3SportOpen.ee" site_id="tv3-sport-open-hd">Go3 Sport Open HD</channel>
+  <channel site="cgates.lt" lang="lt" xmltv_id="Go3SportOpen.ee" site_id="tv3-sport-open-hd">Go3 Sport Open HD</channel>
+  <channel site="cgates.lt" lang="lt" xmltv_id="Eurosport1.lt" site_id="eurosport-1-hd">Eurosport 1 HD</channel>
+  <channel site="cgates.lt" lang="lt" xmltv_id="Eurosport2.lt" site_id="eurosport-2-hd">Eurosport 2 HD</channel> -->
   <!-- <channel site="canalplus.com" lang="fr" xmltv_id="DAZN1.fr" site_id="ch#1077">DAZN 1</channel> -->
   <!-- <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="DAZN1.fr" site_id="3795">DAZN 1</channel> -->
   <channel site="programetv.ro" lang="ro" xmltv_id="DigiSport1.ro" site_id="digi-sport-1">Digi Sport 1</channel>
@@ -250,6 +252,8 @@
   <channel site="tvgids.nl" lang="nl" xmltv_id="ESPN2.nl" site_id="espn2">ESPN 2</channel>
   <channel site="tvgids.nl" lang="nl" xmltv_id="ESPN3.nl" site_id="espn3">ESPN 3</channel>
   <channel site="tvgids.nl" lang="nl" xmltv_id="ESPN4.nl" site_id="espn4">ESPN 4</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="Eurosport1.nl" site_id="eurosport1">Eurosport 1</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="Eurosport2.nl" site_id="eurosport2">Eurosport 2</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport1.nl" site_id="3030">Ziggo Sport Select</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport2.nl" site_id="3031">Ziggo Sport Voetbal</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="ZiggoSport3.nl" site_id="3032">Ziggo Sport Racing</channel>
@@ -367,4 +371,13 @@
   <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport9.rs" site_id="me/tvprogram#arena-sport-9-rs">Arena Sport 9 RS</channel>
   <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport10.rs" site_id="me/tvprogram#arena-sport-10-rs">Arena Sport 10 RS</channel>
   <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport1x2.rs" site_id="me/tvprogram#arena-sport-1x2">Arena Sport 1x2</channel>
+
+  <channel site="go3tv.lt" lang="lt" xmltv_id="Go3Sport1.lt" site_id="4296024">Go3 Sport 1</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="Go3Sport2.lt" site_id="4231570">Go3 Sport 2</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="Go3Sport3.lt" site_id="4150367">Go3 Sport 3</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="Go3Sport4.lt" site_id="7016367">Go3 Sport 4</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="Go3SportOpen.lt" site_id="2275257">Go3 Sport Open</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport1.lt" site_id="4228245">Eurosport 1</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport2.lt" site_id="4152147">Eurosport 2</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="SetantaSports1.lt" site_id="4096852">Setanta Sports 1</channel>
 </channels>
