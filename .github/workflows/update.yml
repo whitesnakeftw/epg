@@ -29,6 +29,7 @@ jobs:
           release-drop: true
           release-keep-count: 0
           release-drop-tag: true
+        env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
       - name: Publish Release
         uses: ncipollo/release-action@v1
