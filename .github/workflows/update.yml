@@ -22,11 +22,15 @@ jobs:
           npm run channels:lint
       - name: superguide
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
-      - uses: actions4git/add-commit-push@v1
+      # - uses: actions4git/add-commit-push@v1
+      - name: Delete previous release
+        uses: liudonghua123/delete-release-action@v1
+        with:
+          release_name: 'latest'
       - name: Publish Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "*.guide.xml,*.guide.xml.gz"
+          artifacts: "*.guide.xml.gz"
           allowUpdates: true
           generateReleaseNotes: false
           replacesArtifacts: true
