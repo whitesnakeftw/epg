@@ -16,7 +16,7 @@ module.exports = {
         title: item.program.title,
         description: item.program.longDescription,
         category: item.program.subType,
-        icon: parseImage(item),
+        image: parseImage(item),
         start: parseStart(item),
         stop: parseStop(item)
       })

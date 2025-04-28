@@ -380,4 +380,10 @@
   <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport1.lt" site_id="4228245">Eurosport 1</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport2.lt" site_id="4152147">Eurosport 2</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="SetantaSports1.lt" site_id="4096852">Setanta Sports 1</channel>
+
+  <channel site="tvpassport.com" lang="en" xmltv_id="TSN1HD.ca" site_id="tsn1/11">TSN1</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="TSN2HD.ca" site_id="tsn2/4294">TSN2</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="TSN3HD.ca" site_id="tsn3/13719">TSN3</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="TSN4HD.ca" site_id="tsn4/279">TSN4</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="TSN5HD.ca" site_id="tsn5/278">TSN5</channel>
 </channels>
