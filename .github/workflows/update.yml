@@ -23,14 +23,6 @@ jobs:
       - name: superguide
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
       # - uses: actions4git/add-commit-push@v1
-      - name: Delete previous release
-        uses: sgpublic/delete-release-action@v1.1
-        with:
-          release-drop: true
-          release-keep-count: 0
-          release-drop-tag: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
       - name: Publish Release
         uses: ncipollo/release-action@v1
         with:
