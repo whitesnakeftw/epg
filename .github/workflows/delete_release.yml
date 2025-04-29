@@ -11,5 +11,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          release_name: '1.0.0'
-          suppress_errors: true
+          release_name: 1.0.0
+          suppress_errors: false
