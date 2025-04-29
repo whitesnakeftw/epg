@@ -20,6 +20,13 @@ jobs:
       - name: check *.channels.xml
         run: |
           npm run channels:lint
+      - name: Delete Release
+        uses: liudonghua123/delete-release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_name: 'latest'
+          suppress_errors: true
       - name: superguide
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
       # - uses: actions4git/add-commit-push@v1
