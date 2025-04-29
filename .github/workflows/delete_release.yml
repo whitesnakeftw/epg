@@ -11,8 +11,7 @@ jobs:
         uses: kaliber5/action-get-release@v1
         with:
           token: ${{ github.token }}
-          draft: true
-          tag_name: ${{ GITHUB.HEAD_REF }}
+          latest: true
         continue-on-error: true
       - name: Delete Release
         uses: liudonghua123/delete-release-action@v1
