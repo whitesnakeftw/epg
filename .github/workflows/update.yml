@@ -20,13 +20,20 @@ jobs:
       - name: check *.channels.xml
         run: |
           npm run channels:lint
+      - name: Get latest release
+        id: get_latest_release
+        uses: kaliber5/action-get-release@v1
+        with:
+          token: ${{ github.token }}
+          latest: true
+        continue-on-error: true
       - name: Delete Release
         uses: liudonghua123/delete-release-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          release_name: '1.0.0'
-          suppress_errors: true
+          release_id: ${{ steps.get_latest_release.outputs.id }}
+          suppress_errors: false
       - name: superguide
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
       # - uses: actions4git/add-commit-push@v1
@@ -41,4 +48,4 @@ jobs:
           prerelease: false
           draft: false
           makeLatest: true
-          tag: 1.0.0
+          # tag: 1.0.0
