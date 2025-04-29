@@ -25,7 +25,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          release_name: 'latest'
+          release_name: '1.0.0'
           suppress_errors: true
       - name: superguide
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
