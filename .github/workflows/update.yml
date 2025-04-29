@@ -48,4 +48,4 @@ jobs:
           prerelease: false
           draft: false
           makeLatest: true
-          # tag: 1.0.0
+          tag: 1.0.0
