@@ -6,17 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Get latest release
-        id: get_latest_release
-        uses: kaliber5/action-get-release@v1
+      - uses: ClementTsang/delete-tag-and-release@v0.3.1
         with:
-          token: ${{ github.token }}
-          latest: true
-        continue-on-error: true
-      - name: Delete Release
-        uses: liudonghua123/delete-release-action@v1
+          delete_release: true
+          tag_name: 1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          release_id: ${{ steps.get_latest_release.outputs.id }}
-          suppress_errors: false
