@@ -386,4 +386,6 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN3HD.ca" site_id="tsn3/13719">TSN3</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN4HD.ca" site_id="tsn4/279">TSN4</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN5HD.ca" site_id="tsn5/278">TSN5</channel>
+
+  <channel site="pluto.tv" lang="en" xmltv_id="CBSSportsGolazo.us" site_id="63a0e33a45264d000850ed7e">Golazo Network</channel>
 </channels>
