@@ -129,6 +129,7 @@
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport5.de" site_id="114">Sky Sport 5</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport6.de" site_id="113">Sky Sport 6</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="RedBullTV.at" site_id="5027">Red Bull TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyNature.de" site_id="5142">Sky Nature</channel>
   <!-- <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesligaHD.de" site_id="207382568125">Sky Bundesliga HD</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga1HD.de" site_id="207382568030">Sky Bundesliga HD 1</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga2HD.de" site_id="207381032273">Sky Bundesliga HD 2</channel>
@@ -168,6 +169,7 @@
   <channel site="sky.com" lang="en" xmltv_id="TNTSports4.uk" site_id="3141">TNT Sports 4</channel>
   <channel site="sky.com" lang="en" xmltv_id="PremierSports1.uk" site_id="1289">Premier Sports 1</channel>
   <channel site="sky.com" lang="en" xmltv_id="PremierSports2.uk" site_id="1290">Premier Sports 2</channel>
+  <channel site="sky.com" lang="en" xmltv_id="SkyNature.uk" site_id="1233">Sky Nature</channel>
   <!-- <channel site="sky.com" lang="en" xmltv_id="DAZN1HD.uk" site_id="1359">DAZN 1 HD</channel> -->
   <!-- <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySportsMainEventUHD.uk" site_id="2257">SkySportsMainEventUHD</channel>
   <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySportsF1UHD.uk" site_id="2259">Sky Sports F1 UHD</channel>
@@ -380,12 +382,16 @@
   <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport1.lt" site_id="4228245">Eurosport 1</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport2.lt" site_id="4152147">Eurosport 2</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="SetantaSports1.lt" site_id="4096852">Setanta Sports 1</channel>
+  <channel site="go3tv.lt" lang="ee" xmltv_id="NationalGeographic.lt" site_id="4230724">National Geographic</channel>
 
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN1HD.ca" site_id="tsn1/11">TSN1</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN2HD.ca" site_id="tsn2/4294">TSN2</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN3HD.ca" site_id="tsn3/13719">TSN3</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN4HD.ca" site_id="tsn4/279">TSN4</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN5HD.ca" site_id="tsn5/278">TSN5</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographic.ca" site_id="national-geographic-canada/475">National Geographic Canada</channel>
 
   <channel site="pluto.tv" lang="en" xmltv_id="CBSSportsGolazo.us" site_id="63a0e33a45264d000850ed7e">Golazo Network</channel>
+  <channel site="singtel.com" lang="en" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="5208">Animal Planet (HD)</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="NationalGeographicWild.us" site_id="9200004683">National Geographic Wild</channel>
 </channels>
