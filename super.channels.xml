@@ -274,6 +274,9 @@
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax10.fr" site_id="6F425028-14F0-4E38-B776-71A9DB3F3493">beIN SPORTS MAX 10</channel>
   <channel site="horizon.tv" lang="sk" xmltv_id="Sport1.cz" site_id="10074">Sport 1 HD</channel>
   <channel site="horizon.tv" lang="sk" xmltv_id="Sport2.cz" site_id="10075">Sport 2 HD</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="Eurosport1.sk" site_id="10072">Eurosport 1 HD</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="Eurosport2.sk" site_id="10073">Eurosport 2 HD</channel>
+  <channel site="antiktv.sk" lang="sk" xmltv_id="LoveNature.sk" site_id="love_nature">Love Nature</channel>
   <!-- <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport1.cz" site_id="10080">Nova Sport 1 HD</channel>
   <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport2.cz" site_id="10081">Nova Sport 2 HD</channel> -->
   <channel site="tv.mail.ru" lang="ru" xmltv_id="Match.ru" site_id="2060">МАТЧ!</channel>
@@ -301,6 +304,8 @@
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport8.hr" site_id="282235944385">Arenasport 8</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport9.hr" site_id="282237992142">Arenasport 9</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport10.hr" site_id="282237992144">Arenasport 10</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="BBCEarth.hr" site_id="276770344361">BBC Earth</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="NatGeoWild.hr" site_id="276770344352">Nat Geo Wild</channel>
 
   <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport1Premium.ba" site_id="ba/tvprogram#arena-sport-1-premium-bih">Arena Sport 1 Premium</channel>
   <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport2Premium.ba" site_id="ba/tvprogram#arena-sport-2-premium-bih">Arena Sport 2 Premium</channel>
@@ -351,8 +356,6 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="Motorvision.de" site_id="Plex/all#5e20b730f2f8d5003d739db7-603fb593a99efc002dbf90e4">Motorvision TV</channel>
   <channel site="sky.com" lang="en" xmltv_id="Eurosport1.uk" site_id="1726">Eurosport 1</channel>
   <channel site="sky.com" lang="en" xmltv_id="Eurosport2.uk" site_id="1841">Eurosport 2</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="Eurosport1.sk" site_id="10072">Eurosport 1 HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="Eurosport2.sk" site_id="10073">Eurosport 2 HD</channel>
   <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub1.rs" site_id="rs/tvprogram#sport-klub">Sport Klub 1 Srbija</channel>
   <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub2.rs" site_id="rs/tvprogram#sportklub-plus-rs">Sport Klub 2 Srbija</channel>
   <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub3.rs" site_id="rs/tvprogram#sportklub-plus-prime-srbija">Sport Klub 3</channel>
@@ -382,7 +385,9 @@
   <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport1.lt" site_id="4228245">Eurosport 1</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport2.lt" site_id="4152147">Eurosport 2</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="SetantaSports1.lt" site_id="4096852">Setanta Sports 1</channel>
-  <channel site="go3tv.lt" lang="ee" xmltv_id="NationalGeographic.lt" site_id="4230724">National Geographic</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="NationalGeographic.lt" site_id="4230724">National Geographic</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="AnimalPlanet.lt" site_id="4150939">Animal Planet</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="ViasatNature.lt" site_id="6295671">Viasat Nature</channel>
 
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN1HD.ca" site_id="tsn1/11">TSN1</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN2HD.ca" site_id="tsn2/4294">TSN2</channel>
@@ -394,4 +399,5 @@
   <channel site="pluto.tv" lang="en" xmltv_id="CBSSportsGolazo.us" site_id="63a0e33a45264d000850ed7e">Golazo Network</channel>
   <channel site="singtel.com" lang="en" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="5208">Animal Planet (HD)</channel>
   <channel site="tvguide.com" lang="en" xmltv_id="NationalGeographicWild.us" site_id="9200004683">National Geographic Wild</channel>
+  <channel site="programtv.onet.pl" lang="pl" xmltv_id="PolsatViasatNature.pl" site_id="polsat-viasat-nature-413">Polsat Viasat Nature HD</channel>
 </channels>
