@@ -21,8 +21,8 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMotoGP.it" site_id="DTH#483">Sky Sport MotoGP</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportNBA.it" site_id="DTH#764">Sky Sport NBA</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportLegend.it" site_id="DTH#578">Sky Sport Legend</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="Eurosport1.it" site_id="DTH#3073">Eurosport 1</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="Eurosport2.it" site_id="DTH#150">Eurosport 2</channel>
+  <!-- <channel site="guidatv.sky.it" lang="it" xmltv_id="Eurosport1.it" site_id="DTH#3073">Eurosport 1</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="Eurosport2.it" site_id="DTH#150">Eurosport 2</channel> -->
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMix.it" site_id="DTH#579">Sky Sport Mix</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport251.it" site_id="DTH#917">Sky Sport 251</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport252.it" site_id="DTH#951">Sky Sport 252</channel>
@@ -87,6 +87,8 @@
   <!-- <channel site="superguidatv.it" lang="it" xmltv_id="MilanTV.it" site_id="milan-tv/sky-sport/55">Milan TV</channel> -->
   <channel site="guida.tv" lang="it" xmltv_id="MilanTV.it" site_id="77738486/milan-tv">Milan TV</channel>
   <!-- <channel site="superguidatv.it" lang="it" xmltv_id="RSILa2.ch" site_id="la-2/rsi/232">La 2</channel> -->
+  <channel site="guida.tv" lang="it" xmltv_id="Eurosport1.it" site_id="698573/eurosport-italia">Eurosport 1 Italia</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="Eurosport2.it" site_id="69857350/eurosport-2-italia">Eurosport 2 Italia</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa1.ch" site_id="356">RSI La 1</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa2.ch" site_id="357">RSI LA 2</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="Sportitalia.it" site_id="1387">SPORTITALIA</channel>
@@ -173,6 +175,7 @@
   <channel site="sky.com" lang="en" xmltv_id="PremierSports1.uk" site_id="1289">Premier Sports 1</channel>
   <channel site="sky.com" lang="en" xmltv_id="PremierSports2.uk" site_id="1290">Premier Sports 2</channel>
   <channel site="sky.com" lang="en" xmltv_id="SkyNature.uk" site_id="1233">Sky Nature</channel>
+  <channel site="tv24.co.uk" lang="en" xmltv_id="TNTSports5.uk" site_id="bt-sport-extra-1">TNT Sports 5</channel>
   <!-- <channel site="sky.com" lang="en" xmltv_id="DAZN1HD.uk" site_id="1359">DAZN 1 HD</channel> -->
   <!-- <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySportsMainEventUHD.uk" site_id="2257">SkySportsMainEventUHD</channel>
   <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="SkySportsF1UHD.uk" site_id="2259">Sky Sports F1 UHD</channel>
