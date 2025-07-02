@@ -400,7 +400,9 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographic.ca" site_id="national-geographic-canada/475">National Geographic Canada</channel>
 
   <channel site="pluto.tv" lang="en" xmltv_id="CBSSportsGolazo.us" site_id="63a0e33a45264d000850ed7e">Golazo Network</channel>
+  <channel site="pluto.tv" lang="it" xmltv_id="PlutoTVNatura.it" site_id="60802b37709d6b0007b0c549">Pluto TV Natura</channel>
   <channel site="singtel.com" lang="en" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="5208">Animal Planet (HD)</channel>
   <channel site="tvguide.com" lang="en" xmltv_id="NationalGeographicWild.us" site_id="9200004683">National Geographic Wild</channel>
   <channel site="programtv.onet.pl" lang="pl" xmltv_id="PolsatViasatNature.pl" site_id="polsat-viasat-nature-413">Polsat Viasat Nature HD</channel>
+  <channel site="tv24.co.uk" lang="en" xmltv_id="RealWild.uk" site_id="real-wild">Real Wild</channel>
 </channels>
