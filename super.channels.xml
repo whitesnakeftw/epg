@@ -89,6 +89,7 @@
   <!-- <channel site="superguidatv.it" lang="it" xmltv_id="RSILa2.ch" site_id="la-2/rsi/232">La 2</channel> -->
   <channel site="guida.tv" lang="it" xmltv_id="Eurosport1.it" site_id="698573/eurosport-italia">Eurosport 1 Italia</channel>
   <channel site="guida.tv" lang="it" xmltv_id="Eurosport2.it" site_id="69857350/eurosport-2-italia">Eurosport 2 Italia</channel>
+  <channel site="i.mjh.nz" lang="it" xmltv_id="HipHopTV.it" site_id="SamsungTVPlus/it#ITBC11000108G">Hip Hop TV</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa1.ch" site_id="356">RSI La 1</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa2.ch" site_id="357">RSI LA 2</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="Sportitalia.it" site_id="1387">SPORTITALIA</channel>
