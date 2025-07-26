@@ -6,15 +6,6 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
-    services:
-      windscribe-proxy:
-        image: yarmak/windscribe-proxy
-        command: >
-          --username ${{ secrets.WINDSCRIBE_USERNAME }}
-          --password ${{ secrets.WINDSCRIBE_PASSWORD }}
-          --location Germany/Frankfurt
-        ports:
-          - 28080:28080
     steps:
       - uses: szenius/set-timezone@v2.0
         with:
@@ -26,6 +17,19 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
+      - name: Start Windscribe proxy
+        env:
+          USERNAME: ${{ secrets.WINDSCRIBE_USERNAME }}
+          PASSWORD: ${{ secrets.WINDSCRIBE_PASSWORD }}
+        run: |
+          docker run -d \
+            --security-opt no-new-privileges \
+            --name windscribe-proxy \
+            -p 127.0.0.1:28080:28080 \
+            yarmak/windscribe-proxy \
+            --username "$USERNAME" \
+            --password "$PASSWORD" \
+            --location "Germany/Frankfurt"
       - name: Check *.channels.xml
         run: |
           npm run channels:lint
@@ -33,6 +37,11 @@ jobs:
         env:
           ALL_PROXY: socks5://127.0.0.1:28080
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
+      - name: Stop and remove Windscribe proxy container
+        if: always()
+        run: |
+          docker stop windscribe-proxy || true
+          docker rm windscribe-proxy || true
       # - uses: actions4git/add-commit-push@v1
       - name: Delete release and tag
         uses: ClementTsang/delete-tag-and-release@v0.3.1
