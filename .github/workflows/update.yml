@@ -32,8 +32,9 @@ jobs:
             --location "Germany/Frankfurt"
       - name: Check proxy with curl (socks5)
         run: |
-          apt-get update && apt-get install -y curl
+          sudo apt-get update && sudo apt-get install -y curl
           curl --socks5 127.0.0.1:28080 https://ifconfig.me || true
+
       - name: Test Windscribe proxy port open
         run: |
           apt-get update && apt-get install -y socat
