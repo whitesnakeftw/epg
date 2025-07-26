@@ -57,7 +57,7 @@ jobs:
           npm run channels:lint
       - name: Superguide
         env:
-          ALL_PROXY: socks5h://127.0.0.1:28080
+          ALL_PROXY: http://127.0.0.1:28080
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
       - name: Stop and remove Windscribe proxy container
         if: always()

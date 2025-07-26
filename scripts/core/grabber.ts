@@ -3,7 +3,7 @@ import { Logger, Collection } from '@freearhey/core'
 import { Queue } from './'
 import { GrabOptions } from '../commands/epg/grab'
 import { TaskQueue, PromisyClass } from 'cwait'
-import { SocksProxyAgent } from 'socks-proxy-agent'
+import { HttpProxyAgent } from 'http-proxy-agent'
 
 type GrabberProps = {
   logger: Logger
@@ -49,7 +49,7 @@ export class Grabber {
             // Inject proxy if defined via env
             const proxy = process.env.ALL_PROXY
             if (proxy) {
-              const agent = new SocksProxyAgent(proxy)
+              const agent = new HttpProxyAgent(proxy)
               config.request.httpAgent = agent
               config.request.httpsAgent = agent
             }
