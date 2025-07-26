@@ -3,6 +3,7 @@ import { Logger, Collection } from '@freearhey/core'
 import { Queue } from './'
 import { GrabOptions } from '../commands/epg/grab'
 import { TaskQueue, PromisyClass } from 'cwait'
+import { SocksProxyAgent } from 'socks-proxy-agent'
 
 type GrabberProps = {
   logger: Logger
@@ -39,9 +40,18 @@ export class Grabber {
 
             channels.add(channel)
 
+            if (!config.request) config.request = {}
+
             if (this.options.timeout !== undefined) {
-              const timeout = parseInt(this.options.timeout)
-              config.request = { ...config.request, ...{ timeout } }
+              config.request.timeout = parseInt(this.options.timeout)
+            }
+
+            // Inject proxy if defined via env
+            const proxy = process.env.ALL_PROXY
+            if (proxy) {
+              const agent = new SocksProxyAgent(proxy)
+              config.request.httpAgent = agent
+              config.request.httpsAgent = agent
             }
 
             if (this.options.delay !== undefined) {

@@ -6,6 +6,15 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
+    services:
+      windscribe-proxy:
+        image: yarmak/windscribe-proxy
+        command: >
+          --username ${{ secrets.WINDSCRIBE_USERNAME }}
+          --password ${{ secrets.WINDSCRIBE_PASSWORD }}
+          --location Germany/Frankfurt
+        ports:
+          - 28080:28080
     steps:
       - uses: szenius/set-timezone@v2.0
         with:
@@ -21,6 +30,8 @@ jobs:
         run: |
           npm run channels:lint
       - name: Superguide
+        env:
+          ALL_PROXY: socks5://127.0.0.1:28080
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
       # - uses: actions4git/add-commit-push@v1
       - name: Delete release and tag
