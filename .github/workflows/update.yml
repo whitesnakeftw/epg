@@ -34,20 +34,20 @@ jobs:
             --password "$PASSWORD" \
             --location "$LOCATION"
 
-      # - name: Debug Windscribe logs
-      #   run: |
-      #     sleep 5
-      #     docker logs windscribe-proxy
+      - name: Debug Windscribe logs
+        run: |
+          sleep 5
+          docker logs windscribe-proxy
       
-      # - name: Check if proxy port is listening
-      #   run: |
-      #     ss -ltnp | grep 28080 || echo "Nothing on port 28080"
+      - name: Check if proxy port is listening
+        run: |
+          ss -ltnp | grep 28080 || echo "Nothing on port 28080"
 
-      # - name: Check proxy with curl
-      #   run: |
-      #     sudo apt-get update && sudo apt-get install -y curl
-      #     echo "GH IP: $(curl -s https://ifconfig.me)"
-      #     echo "Proxy IP: $(curl -s -x http://127.0.0.1:28080 https://ifconfig.me)"
+      - name: Check proxy with curl
+        run: |
+          sudo apt-get update && sudo apt-get install -y curl
+          echo "GH IP: $(curl -s https://ifconfig.me)"
+          echo "Proxy IP: $(curl -s -x http://127.0.0.1:28080 https://ifconfig.me)"
 
       # - name: Test Windscribe proxy port open
       #   run: |
