@@ -3,7 +3,7 @@ import { Logger, Collection } from '@freearhey/core'
 import { Queue } from './'
 import { GrabOptions } from '../commands/epg/grab'
 import { TaskQueue, PromisyClass } from 'cwait'
-import { HttpProxyAgent } from 'http-proxy-agent'
+require('global-agent').bootstrap()
 
 type GrabberProps = {
   logger: Logger
@@ -40,18 +40,9 @@ export class Grabber {
 
             channels.add(channel)
 
-            if (!config.request) config.request = {}
-
             if (this.options.timeout !== undefined) {
-              config.request.timeout = parseInt(this.options.timeout)
-            }
-
-            // Inject proxy if defined via env
-            const proxy = process.env.ALL_PROXY
-            if (proxy) {
-              const agent = new HttpProxyAgent(proxy)
-              config.request.httpAgent = agent
-              config.request.httpsAgent = agent
+              const timeout = parseInt(this.options.timeout)
+              config.request = { ...config.request, ...{ timeout } }
             }
 
             if (this.options.delay !== undefined) {

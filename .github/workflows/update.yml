@@ -29,7 +29,7 @@ jobs:
             yarmak/windscribe-proxy \
             --username "$USERNAME" \
             --password "$PASSWORD" \
-            --location "Germany/Frankfurt"
+            --location "United Kingdom/London"
 
       - name: Debug Windscribe logs
         run: |
@@ -40,24 +40,23 @@ jobs:
         run: |
           ss -ltnp | grep 28080 || echo "Nothing on port 28080"
 
-      - name: Check proxy with curl (socks5)
+      - name: Check proxy with curl
         run: |
           sudo apt-get update && sudo apt-get install -y curl
           curl https://ifconfig.me
-          curl -x http://127.0.0.1:28080 http://example.com
+          curl -x http://127.0.0.1:28080 https://ifconfig.me
 
       - name: Test Windscribe proxy port open
         run: |
           apt-get update && apt-get install -y socat
           timeout 3 bash -c "</dev/tcp/127.0.0.1/28080" && echo "Port open" || echo "Port closed"
 
-
       - name: Check *.channels.xml
         run: |
           npm run channels:lint
       - name: Superguide
         env:
-          ALL_PROXY: http://127.0.0.1:28080
+          GLOBAL_AGENT_HTTP_PROXY: http://127.0.0.1:28080
         run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
       - name: Stop and remove Windscribe proxy container
         if: always()
