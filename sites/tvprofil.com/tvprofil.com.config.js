@@ -132,7 +132,7 @@ function parseTitle($item) {
 }
 
 function parseItems(content) {
-  let data = (content.match(/tvprogramit\d+\((.*)\)$/) || [null, null])[1]
+  let data = (content.match(/^[^(]+\(([\s\S]*)\)$/) || [null, null])[1]
   if (!data) return []
   let json = JSON.parse(data)
   if (!json || !json.data || !json.data.program) return []

@@ -1,107 +1,97 @@
-const { DateTime } = require('luxon')
-
-const API_PROGRAM_ENDPOINT = 'https://comunicacion.movistarplus.es'
-const API_IMAGE_ENDPOINT = 'https://www.movistarplus.es/recorte/n/externov';
+const axios = require('axios')
+const cheerio = require('cheerio')
+const dayjs = require('dayjs')
 
 module.exports = {
   site: 'movistarplus.es',
   days: 2,
-  url: function ({ channel, date }) {
-    return `${API_PROGRAM_ENDPOINT}/wp-admin/admin-ajax.php`
+  url({ channel, date }) {
+    return `https://www.movistarplus.es/programacion-tv/${channel.site_id}/${date.format('YYYY-MM-DD')}`
   },
-  request: {
-    method: 'POST',
-    headers: {
-      Origin: API_PROGRAM_ENDPOINT,
-      Referer: `${API_PROGRAM_ENDPOINT}/programacion/`,
-      "Content-Type" : 'application/x-www-form-urlencoded; charset=UTF-8',
-    },
-    data: function ({ channel, date }) {
-      return {
-        action: 'getProgramation',
-        day: date.format('YYYY-MM-DD'),
-        "channels[]": channel.site_id,
-      };
-    },
-  },
-  parser({ content, channel, date }) {
+  async parser({ content }) {
     let programs = []
-    let items = parseItems(content, channel);
-    if (!items.length) return programs;
+    let items = parseItems(content)
+    if (!items.length) return programs
 
-    items.forEach(item => {
-      let startTime = DateTime.fromFormat(
-        `${item.f_evento_rejilla}`,
-        'yyyy-MM-dd HH:mm:ss',
-        { zone: 'Europe/Madrid' }
-      ).toUTC();
+    const $ = cheerio.load(content)
+    const programElements = $('div[id^="ele-"]').get()
 
-      let stopTime = DateTime.fromFormat(
-        `${item.f_fin_evento_rejilla}`,
-        'yyyy-MM-dd HH:mm:ss',
-        { zone: 'Europe/Madrid' }
-      ).toUTC()
+    for (let i = 0; i < items.length; i++) {
+      const el = items[i]
+      let description = null
 
-      // Adjust stop time if it's on the next day
-      if (stopTime < startTime) {
-        stopTime = stopTime.plus({ days: 1 });
+      if (programElements[i]) {
+        const programDiv = $(programElements[i])
+        const programLink = programDiv.find('a').attr('href')
+        
+        if (programLink) {
+          const idMatch = programLink.match(/id=(\d+)/)
+          if (idMatch && idMatch[1]) {
+            description = await getProgramDescription(programLink).catch(() => null)
+          }
+        }
       }
 
       programs.push({
-        title: item.des_evento_rejilla,
-        icon: parseIcon(item, channel),
-        category: item.des_genero,
-        start: startTime,
-        stop: stopTime,
+        title: el.item.name,
+        description: description,
+        start: dayjs(el.item.startDate),
+        stop: dayjs(el.item.endDate)
       })
-    })
+    }
 
     return programs
   },
   async channels() {
-    const axios = require('axios')
-    //const dayjs = require('dayjs')
-    const data = await axios
-      .post(`${API_PROGRAM_ENDPOINT}/wp-admin/admin-ajax.php`,
-        {
-          action: 'getChannels',
-        },
-        {
-          headers: {
-            Origin: API_PROGRAM_ENDPOINT,
-            Referer: `${API_PROGRAM_ENDPOINT}/programacion/`,
-            "Content-Type" : 'application/x-www-form-urlencoded; charset=UTF-8',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71'
-          }
-        }
-      )
+    const html = await axios
+      .get('https://www.movistarplus.es/programacion-tv')
       .then(r => r.data)
       .catch(console.log)
 
-    return Object.values(data).map(item => {
+    const $ = cheerio.load(html)
+    let scheme = $('script:contains(ItemList)').html()
+    scheme = JSON.parse(scheme)
+
+    return scheme.itemListElement.map(el => {
+      const urlParts = el.item.url.split('/')
+      const site_id = urlParts.pop().toLowerCase()
+
       return {
         lang: 'es',
-        site_id: item.cod_cadena_tv,
-        name: item.des_cadena_tv
+        name: el.item.name,
+        site_id
       }
     })
   }
 }
 
+function parseItems(content) {
+  try {
+    const $ = cheerio.load(content)
+    let scheme = $('script:contains("@type": "ItemList")').html()
+    scheme = JSON.parse(scheme)
+    if (!scheme || !Array.isArray(scheme.itemListElement)) return []
 
-function parseIcon(item, channel) {
-  if(item.cod_elemento_emision)
-  {
-    	return `${API_IMAGE_ENDPOINT}/M${channel.site_id}P${item.cod_elemento_emision}`
+    return scheme.itemListElement
+  } catch {
+    return []
   }
-  
-  return ''
 }
 
-function parseItems(content, channel) {
-  const json = typeof content === 'string' ? JSON.parse(content) : content;
-  const data = json.channelsProgram;
+async function getProgramDescription(programUrl) {
+  try {
+    const response = await axios.get(programUrl, {
+      headers: {
+        'Referer': 'https://www.movistarplus.es/programacion-tv/'
+      }
+    })
 
-  if (data.length !== 1) return [];
-  return data[0];
+    const $ = cheerio.load(response.data)
+    const description = $('.show-content .text p').first().text().trim() || null
+
+    return description
+  } catch (error) {
+    console.error(`Error fetching description from ${programUrl}:`, error.message)
+    return null
+  }
 }
