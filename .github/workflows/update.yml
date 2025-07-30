@@ -19,20 +19,20 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Start Windscribe proxy
-        env:
-          USERNAME: ${{ secrets.WINDSCRIBE_USERNAME }}
-          PASSWORD: ${{ secrets.WINDSCRIBE_PASSWORD }}
-          LOCATION: ${{ secrets.WINDSCRIBE_LOCATION }}
-        run: |
-          docker run -d \
-            --security-opt no-new-privileges \
-            --name windscribe-proxy \
-            -p 28080:28080 \
-            yarmak/windscribe-proxy \
-            --username "$USERNAME" \
-            --password "$PASSWORD" \
-            --location "$LOCATION"
+      # - name: Start Windscribe proxy
+      #   env:
+      #     USERNAME: ${{ secrets.WINDSCRIBE_USERNAME }}
+      #     PASSWORD: ${{ secrets.WINDSCRIBE_PASSWORD }}
+      #     LOCATION: ${{ secrets.WINDSCRIBE_LOCATION }}
+      #   run: |
+      #     docker run -d \
+      #       --security-opt no-new-privileges \
+      #       --name windscribe-proxy \
+      #       -p 28080:28080 \
+      #       yarmak/windscribe-proxy \
+      #       --username "$USERNAME" \
+      #       --password "$PASSWORD" \
+      #       --location "$LOCATION"
 
       # - name: Debug Windscribe logs
       #   run: |
@@ -59,15 +59,15 @@ jobs:
           npm run channels:lint
 
       - name: Superguide
-        env:
-          GLOBAL_AGENT_HTTP_PROXY: http://127.0.0.1:28080
-        run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=4 --gzip
+        # env:
+        #   GLOBAL_AGENT_HTTP_PROXY: http://127.0.0.1:28080
+        run: npm run grab -- --channels=super.channels.xml --output=super.guide.xml --maxConnections=1 --delay 5000 --gzip
 
-      - name: Stop and remove Windscribe proxy container
-        if: always()
-        run: |
-          docker stop windscribe-proxy || true
-          docker rm windscribe-proxy || true
+      # - name: Stop and remove Windscribe proxy container
+      #   if: always()
+      #   run: |
+      #     docker stop windscribe-proxy || true
+      #     docker rm windscribe-proxy || true
 
       # - uses: actions4git/add-commit-push@v1
 
