@@ -19,7 +19,7 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportGolf.it" site_id="DTH#768">Sky Sport Golf</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportF1.it" site_id="DTH#478">Sky Sport F1</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMotoGP.it" site_id="DTH#483">Sky Sport MotoGP</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportNBA.it" site_id="DTH#764">Sky Sport NBA</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportBasket.it" site_id="DTH#764">Sky Sport Basket</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportLegend.it" site_id="DTH#578">Sky Sport Legend</channel>
   <!-- <channel site="guidatv.sky.it" lang="it" xmltv_id="Eurosport1.it" site_id="DTH#3073">Eurosport 1</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="Eurosport2.it" site_id="DTH#150">Eurosport 2</channel> -->
@@ -362,8 +362,8 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="BilliardTV.us" site_id="SamsungTVPlus/us#USBD12000183X">Billiard TV</channel>
   <!-- <channel site="pluto.tv" lang="sv" xmltv_id="PadeltimeTV.sv" site_id="65c242c8d77d450008badd8b">Padeltime TV</channel> -->
   <channel site="i.mjh.nz" lang="en" xmltv_id="Motorvision.de" site_id="Plex/all#5e20b730f2f8d5003d739db7-603fb593a99efc002dbf90e4">Motorvision TV</channel>
-  <channel site="sky.com" lang="en" xmltv_id="Eurosport1.uk" site_id="1726">Eurosport 1</channel>
-  <channel site="sky.com" lang="en" xmltv_id="Eurosport2.uk" site_id="1841">Eurosport 2</channel>
+  <!-- <channel site="sky.com" lang="en" xmltv_id="Eurosport1.uk" site_id="1726">Eurosport 1</channel>
+  <channel site="sky.com" lang="en" xmltv_id="Eurosport2.uk" site_id="1841">Eurosport 2</channel> -->
   <!-- <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub1.rs" site_id="rs/tvprogram#sport-klub">Sport Klub 1 Srbija</channel>
   <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub2.rs" site_id="rs/tvprogram#sportklub-plus-rs">Sport Klub 2 Srbija</channel> -->
   <!-- <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub1.rs" site_id="rs/tvprogram#sportklub-hr">Sport Klub 1 Srbija</channel>
