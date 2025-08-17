@@ -138,6 +138,7 @@
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport6.de" site_id="113">Sky Sport 6</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="RedBullTV.at" site_id="5027">Red Bull TV</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkyNature.de" site_id="5142">Sky Nature</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SAT1.de" site_id="381">SAT.1</channel>
   <!-- <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesligaHD.de" site_id="207382568125">Sky Bundesliga HD</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga1HD.de" site_id="207382568030">Sky Bundesliga HD 1</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga2HD.de" site_id="207381032273">Sky Bundesliga HD 2</channel>
@@ -238,6 +239,8 @@
   <channel site="programetv.ro" lang="ro" xmltv_id="DigiSport3.ro" site_id="digi-sport-3">Digi Sport 3</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="DigiSport4.ro" site_id="digi-sport-4">Digi Sport 4</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="Digi4K.ro" site_id="digi-4k">Digi 4K</channel>
+  <channel site="programetv.ro" lang="ro" xmltv_id="Eurosport4K.ro" site_id="eurosport-4k">Eurosport 4K</channel>
+  <channel site="epgshare01.online" lang="he" xmltv_id="Sport54K.il" site_id="IL1#Sport.5.4K.il">Sport 5 4K</channel>
   <channel site="tvprofil.com" lang="it" xmltv_id="RaiItalia.au" site_id="it/guida-tv#rai-italia-australia">RAI Italia Australia</channel>
   <channel site="tvprofil.com" lang="it" xmltv_id="RaiWorldPremium" site_id="it/guida-tv#rai-world-premium">RAI World Premium</channel>
   <channel site="tv.post.lu" lang="it" xmltv_id="RaiItaliaAfrica.za" site_id="763b50c0-35cd-11ed-b51f-f33d1bb9e65a">RAI Italia Africa</channel>
