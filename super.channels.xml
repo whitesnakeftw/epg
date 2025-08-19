@@ -290,6 +290,8 @@
   <channel site="horizon.tv" lang="sk" xmltv_id="Eurosport1.sk" site_id="10072">Eurosport 1 HD</channel>
   <channel site="horizon.tv" lang="sk" xmltv_id="Eurosport2.sk" site_id="10073">Eurosport 2 HD</channel>
   <channel site="antiktv.sk" lang="sk" xmltv_id="LoveNature.sk" site_id="love_nature">Love Nature</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="LoveNature.us" site_id="66df8a29b25d2b0008fc5fe0">Love Nature</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="NatureTime.uk" site_id="SamsungTVPlus/ch#CHBC80000437">Nature Time [FR]</channel>
   <!-- <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport1.cz" site_id="10080">Nova Sport 1 HD</channel>
   <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport2.cz" site_id="10081">Nova Sport 2 HD</channel> -->
   <channel site="tv.mail.ru" lang="ru" xmltv_id="Match.ru" site_id="2060">МАТЧ!</channel>
