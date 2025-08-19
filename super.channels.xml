@@ -240,7 +240,7 @@
   <channel site="programetv.ro" lang="ro" xmltv_id="DigiSport4.ro" site_id="digi-sport-4">Digi Sport 4</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="Digi4K.ro" site_id="digi-4k">Digi 4K</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="Eurosport4K.ro" site_id="eurosport-4k">Eurosport 4K</channel>
-  <channel site="epgshare01.online" lang="he" xmltv_id="Sport54K.il" site_id="IL1#Sport.5.4K.il">Sport 5 4K</channel>
+  <channel site="epg.iptvx.one" lang="he" xmltv_id="Sport54K.il" site_id="yes-sport-5-4k">5Sport 4K</channel>
   <channel site="tvprofil.com" lang="it" xmltv_id="RaiItalia.au" site_id="it/guida-tv#rai-italia-australia">RAI Italia Australia</channel>
   <channel site="tvprofil.com" lang="it" xmltv_id="RaiWorldPremium" site_id="it/guida-tv#rai-world-premium">RAI World Premium</channel>
   <channel site="tv.post.lu" lang="it" xmltv_id="RaiItaliaAfrica.za" site_id="763b50c0-35cd-11ed-b51f-f33d1bb9e65a">RAI Italia Africa</channel>
@@ -424,6 +424,7 @@
   <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport1.lt" site_id="4228245">Eurosport 1</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="Eurosport2.lt" site_id="4152147">Eurosport 2</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="SetantaSports1.lt" site_id="4096852">Setanta Sports 1</channel>
+  <channel site="go3tv.lt" lang="lt" xmltv_id="SetantaSports2.lt" site_id="8269425">Setanta Sports 2</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="NationalGeographic.lt" site_id="4230724">National Geographic</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="AnimalPlanet.lt" site_id="4150939">Animal Planet</channel>
   <channel site="go3tv.lt" lang="lt" xmltv_id="ViasatNature.lt" site_id="6295671">Viasat Nature</channel>
