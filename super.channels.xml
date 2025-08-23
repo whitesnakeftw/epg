@@ -444,4 +444,6 @@
   <channel site="tvguide.com" lang="en" xmltv_id="NationalGeographicWild.us" site_id="9200004683">National Geographic Wild</channel>
   <channel site="programtv.onet.pl" lang="pl" xmltv_id="PolsatViasatNature.pl" site_id="polsat-viasat-nature-413">Polsat Viasat Nature HD</channel>
   <channel site="tv24.co.uk" lang="en" xmltv_id="RealWild.uk" site_id="real-wild">Real Wild</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="SPOTV2.id" site_id="00000000000000000120">SpoTV 2</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="SPOTV.id" site_id="00000000000000000119">SpoTV 1</channel>
 </channels>
