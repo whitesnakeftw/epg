@@ -95,7 +95,6 @@
   <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa1.ch" site_id="356">RSI La 1</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="RSILa2.ch" site_id="357">RSI LA 2</channel>
   <channel site="tv.blue.ch" lang="it" xmltv_id="Sportitalia.it" site_id="1387">SPORTITALIA</channel>
-  <channel site="tvprofil.com" lang="it" xmltv_id="DAZN1.it" site_id="it/guida-tv#dazn-it">DAZN IT</channel>
   <!-- <channel site="tivu.tv" lang="it" xmltv_id="DAZN1.it" site_id="232">Zona DAZN</channel> -->
   <channel site="tivu.tv" lang="it" xmltv_id="DAZN2.it" site_id="231">Zona DAZN 2</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="DAZN1.pt" site_id="518">ELEVEN SPORTS 1</channel>
@@ -119,6 +118,7 @@
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportNews.de" site_id="190">Sky Sport News</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportPremierLeague.de" site_id="5555">Sky Sport Premier League</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportMix.de" site_id="5556">Sky Sport Mix</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportGolf.de" site_id="5558">Sky Sport Golf</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga.de" site_id="42">Sky Sport Bundesliga</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga1.de" site_id="206">Sky Sport Bundesliga 1</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="211">Sky Sport Bundesliga 2</channel>
@@ -218,11 +218,6 @@
   <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports2.be" site_id="sportinghd2">Play Sports HD2</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports3.be" site_id="sporting3">Play Sports HD3</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports4.be" site_id="sporting4">Play Sports HD4</channel>
-  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport1.al" site_id="al/programacioni#tring-sport-1-hd">Tring Sport 1</channel>
-  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport2.al" site_id="al/programacioni#tring-sport-2-hd">Tring Sport 2</channel>
-  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport3.al" site_id="al/programacioni#tring-sport-3-hd">Tring Sport 3</channel>
-  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport4.al" site_id="al/programacioni#tring-sport-4-hd">Tring Sport 4</channel>
-  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport5.al" site_id="al/programacioni#tring-sport-5-hd">Tring Sport 5</channel>
   <!-- <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport.ee" site_id="go3-sport">GO3 Sport</channel>
   <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport2.ee" site_id="go3-sport-2">GO3 Sport 2</channel>
   <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport3.ee" site_id="go3-sport-3">GO3 Sport 3</channel>
@@ -241,8 +236,6 @@
   <channel site="programetv.ro" lang="ro" xmltv_id="Digi4K.ro" site_id="digi-4k">Digi 4K</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="Eurosport4K.ro" site_id="eurosport-4k">Eurosport 4K</channel>
   <channel site="epg.iptvx.one" lang="he" xmltv_id="Sport54K.il" site_id="yes-sport-5-4k">5Sport 4K</channel>
-  <channel site="tvprofil.com" lang="it" xmltv_id="RaiItalia.au" site_id="it/guida-tv#rai-italia-australia">RAI Italia Australia</channel>
-  <channel site="tvprofil.com" lang="it" xmltv_id="RaiWorldPremium" site_id="it/guida-tv#rai-world-premium">RAI World Premium</channel>
   <channel site="tv.post.lu" lang="it" xmltv_id="RaiItaliaAfrica.za" site_id="763b50c0-35cd-11ed-b51f-f33d1bb9e65a">RAI Italia Africa</channel>
   <channel site="tv.post.lu" lang="it" xmltv_id="MediasetItalia.it" site_id="bc52db70-9451-11ea-ab5f-f305cd6d02f2">Mediaset Italia</channel>
   <!-- <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN2.nl" site_id="NL_000108_019561">ESPN 2</channel>
@@ -322,16 +315,6 @@
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="BBCEarth.hr" site_id="276770344361">BBC Earth</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="NatGeoWild.hr" site_id="276770344352">Nat Geo Wild</channel>
 
-  <!-- <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport1Premium.ba" site_id="ba/tvprogram#arena-sport-1-premium-bih">Arena Sport 1 Premium</channel>
-  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport2Premium.ba" site_id="ba/tvprogram#arena-sport-2-premium-bih">Arena Sport 2 Premium</channel>
-  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport3Premium.ba" site_id="ba/tvprogram#arena-sport-3-premium-bih">Arena Sport 3 Premium</channel>
-  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport1.ba" site_id="ba/tvprogram#arena-sport-1-ba">Arena Sport 1</channel>
-  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport2.ba" site_id="ba/tvprogram#arena-sport-2-bih">Arena Sport 2</channel>
-  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport3.ba" site_id="ba/tvprogram#arena-sport-3-bih">Arena Sport 3</channel>
-  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport4.ba" site_id="ba/tvprogram#arena-sport-4-bih">Arena Sport 4</channel>
-  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport5.ba" site_id="ba/tvprogram#arena-sport-5-bih">Arena Sport 5</channel>
-  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport6.ba" site_id="ba/tvprogram#arena-sport-6-bih">Arena Sport 6</channel>
-  <channel site="tvprofil.com" lang="ba" xmltv_id="ArenaSport1x2.ba" site_id="ba/tvprogram#arena-sport-1x2">Arena Sport 1x2</channel> -->
   <!--
   <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport1Premium.rs" site_id="700#851">Arena PREMIUM 1</channel>
   <channel site="mts.rs" lang="bs" xmltv_id="ArenaSport2Premium.rs" site_id="701#852">Arena PREMIUM 2</channel>
@@ -371,34 +354,12 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="Motorvision.de" site_id="Plex/all#5e20b730f2f8d5003d739db7-603fb593a99efc002dbf90e4">Motorvision TV</channel>
   <!-- <channel site="sky.com" lang="en" xmltv_id="Eurosport1.uk" site_id="1726">Eurosport 1</channel>
   <channel site="sky.com" lang="en" xmltv_id="Eurosport2.uk" site_id="1841">Eurosport 2</channel> -->
-  <!-- <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub1.rs" site_id="rs/tvprogram#sport-klub">Sport Klub 1 Srbija</channel>
-  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub2.rs" site_id="rs/tvprogram#sportklub-plus-rs">Sport Klub 2 Srbija</channel> -->
-  <!-- <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub1.rs" site_id="rs/tvprogram#sportklub-hr">Sport Klub 1 Srbija</channel>
-  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub2.rs" site_id="rs/tvprogram#sportklub-plus-hr">Sport Klub 2 Srbija</channel>
-  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub3.rs" site_id="rs/tvprogram#sportklub-plus-prime-srbija">Sport Klub 3</channel>
-  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub4.rs" site_id="rs/tvprogram#sport-klub-4">Sport Klub 4</channel>
-  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub5.rs" site_id="rs/tvprogram#sport-klub-5">Sport Klub 5</channel>
-  <channel site="tvprofil.com" lang="hr" xmltv_id="SportKlub6.rs" site_id="rs/tvprogram#sport-klub-6">Sport Klub 6</channel> -->
   <channel site="epgshare01.online" lang="hr" xmltv_id="SportKlub1.rs" site_id="SPORTKLUB1#SK.1.HD.(HR).ba">SK 1 HD (HR)</channel>
   <channel site="epgshare01.online" lang="hr" xmltv_id="SportKlub2.rs" site_id="SPORTKLUB1#SK.2.HR.(Portals).ba">SK 2 HR (Portals)</channel>
   <channel site="epgshare01.online" lang="hr" xmltv_id="SportKlub3.rs" site_id="SPORTKLUB1#SK.3.HR.(Portals).ba">SK 3 HR (Portals)</channel>
   <channel site="epgshare01.online" lang="hr" xmltv_id="SportKlub4.rs" site_id="SPORTKLUB1#SK.4.HR.(Portals).ba">SK 4 HR (Portals)</channel>
   <channel site="epgshare01.online" lang="hr" xmltv_id="SportKlub5.rs" site_id="SPORTKLUB1#SK.5.HR.(Portals).ba">SK 5 HR (Portals)</channel>
   <channel site="epgshare01.online" lang="hr" xmltv_id="SportKlub6.rs" site_id="SPORTKLUB1#SK.6.HR.(Portals).ba">SK 6 HR (Portals)</channel>
-  <!-- <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport1Premium.rs" site_id="me/tvprogram#arena-sport-1-premium">Arena Sport 1 Premium</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport2Premium.rs" site_id="me/tvprogram#arena-sport-2-premium">Arena Sport 2 Premium</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport3Premium.rs" site_id="me/tvprogram#arena-sport-3-premium">Arena Sport 3 Premium</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport1.rs" site_id="me/tvprogram#tv-arena-sport-1">Arena Sport 1 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport2.rs" site_id="me/tvprogram#tv-arena-sport-2">Arena Sport 2 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport3.rs" site_id="me/tvprogram#tv-arena-sport-3">Arena Sport 3 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport4.rs" site_id="me/tvprogram#tv-arena-sport-4">Arena Sport 4 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport5.rs" site_id="me/tvprogram#arena-sport-5">Arena Sport 5 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport6.rs" site_id="me/tvprogram#arena-sport-6">Arena Sport 6 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport7.rs" site_id="me/tvprogram#arena-sport-7">Arena Sport 7 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport8.rs" site_id="me/tvprogram#arena-sport-8">Arena Sport 8 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport9.rs" site_id="me/tvprogram#arena-sport-9-rs">Arena Sport 9 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport10.rs" site_id="me/tvprogram#arena-sport-10-rs">Arena Sport 10 RS</channel>
-  <channel site="tvprofil.com" lang="rs" xmltv_id="ArenaSport1x2.rs" site_id="me/tvprogram#arena-sport-1x2">Arena Sport 1x2</channel> -->
   <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport1Premium.rs" site_id="a1p">Arena Sport 1 Premium Serbia</channel>
   <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport2Premium.rs" site_id="a2p">Arena Sport 2 Premium Serbia</channel>
   <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport3Premium.rs" site_id="a3p">Arena Sport 3 Premium Serbia</channel>
@@ -446,4 +407,12 @@
   <channel site="tv24.co.uk" lang="en" xmltv_id="RealWild.uk" site_id="real-wild">Real Wild</channel>
   <channel site="visionplus.id" lang="en" xmltv_id="SPOTV2.id" site_id="00000000000000000120">SpoTV 2</channel>
   <channel site="visionplus.id" lang="en" xmltv_id="SPOTV.id" site_id="00000000000000000119">SpoTV 1</channel>
+  <!-- <channel site="tvprofil.com" lang="it" xmltv_id="RaiItalia.au" site_id="it/guida-tv#rai-italia-australia">RAI Italia Australia</channel>
+  <channel site="tvprofil.com" lang="it" xmltv_id="RaiWorldPremium" site_id="it/guida-tv#rai-world-premium">RAI World Premium</channel>
+  <channel site="tvprofil.com" lang="it" xmltv_id="DAZN1.it" site_id="it/guida-tv#dazn-it">DAZN IT</channel>
+  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport1.al" site_id="al/programacioni#tring-sport-1-hd">Tring Sport 1</channel>
+  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport2.al" site_id="al/programacioni#tring-sport-2-hd">Tring Sport 2</channel>
+  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport3.al" site_id="al/programacioni#tring-sport-3-hd">Tring Sport 3</channel>
+  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport4.al" site_id="al/programacioni#tring-sport-4-hd">Tring Sport 4</channel>
+  <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport5.al" site_id="al/programacioni#tring-sport-5-hd">Tring Sport 5</channel> -->
 </channels>
