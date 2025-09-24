@@ -349,8 +349,8 @@
   <channel site="plex.tv" lang="en" xmltv_id="ACLCornholeTV.us" site_id="5e20b730f2f8d5003d739db7-63504925a97bd70eaef54f01">ACL Cornhole TV</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="BoxingTV.us" site_id="SamsungTVPlus/in#INBA5100007ME">Boxing TV</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="BilliardTV.us" site_id="SamsungTVPlus/us#USBD12000183X">Billiard TV</channel>
-  <!-- <channel site="pluto.tv" lang="sv" xmltv_id="PadeltimeTV.sv" site_id="65c242c8d77d450008badd8b">Padeltime TV</channel> -->
   <channel site="i.mjh.nz" lang="en" xmltv_id="Motorvision.de" site_id="Plex/all#5e20b730f2f8d5003d739db7-603fb593a99efc002dbf90e4">Motorvision TV</channel>
+  <!-- <channel site="pluto.tv" lang="sv" xmltv_id="PadeltimeTV.sv" site_id="65c242c8d77d450008badd8b">Padeltime TV</channel> -->
   <!-- <channel site="sky.com" lang="en" xmltv_id="Eurosport1.uk" site_id="1726">Eurosport 1</channel>
   <channel site="sky.com" lang="en" xmltv_id="Eurosport2.uk" site_id="1841">Eurosport 2</channel> -->
   <channel site="epgshare01.online" lang="hr" xmltv_id="SportKlub1.rs" site_id="SPORTKLUB1#SK.1.HD.(HR).ba">SK 1 HD (HR)</channel>
@@ -415,4 +415,5 @@
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport4.al" site_id="al/programacioni#tring-sport-4-hd">Tring Sport 4</channel>
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport5.al" site_id="al/programacioni#tring-sport-5-hd">Tring Sport 5</channel> -->
   <!-- <channel site="epg.iptvx.one" lang="he" xmltv_id="Sport54K.il" site_id="yes-sport-5-4k">5Sport 4K</channel> -->
+  <channel site="i.mjh.nz" lang="it" xmltv_id="BBCEarth.it" site_id="SamsungTVPlus/it#IT3200002L5">BBC Earth</channel>
 </channels>
