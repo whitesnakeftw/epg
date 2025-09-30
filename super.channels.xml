@@ -139,6 +139,7 @@
   <channel site="web.magentatv.de" lang="de" xmltv_id="RedBullTV.at" site_id="5027">Red Bull TV</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SkyNature.de" site_id="5142">Sky Nature</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SAT1.de" site_id="381">SAT.1</channel>
+  <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportAustria1.at" site_id="207381032291">Sky Sport Austria 1 HD</channel>
   <!-- <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesligaHD.de" site_id="207382568125">Sky Bundesliga HD</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga1HD.de" site_id="207382568030">Sky Bundesliga HD 1</channel>
   <channel site="tv.magenta.at" lang="de" xmltv_id="SkySportBundesliga2HD.de" site_id="207381032273">Sky Bundesliga HD 2</channel>
