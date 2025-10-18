@@ -417,4 +417,12 @@
   <channel site="tvprofil.com" lang="sq" xmltv_id="TringSport5.al" site_id="al/programacioni#tring-sport-5-hd">Tring Sport 5</channel> -->
   <!-- <channel site="epg.iptvx.one" lang="he" xmltv_id="Sport54K.il" site_id="yes-sport-5-4k">5Sport 4K</channel> -->
   <channel site="i.mjh.nz" lang="it" xmltv_id="BBCEarth.it" site_id="SamsungTVPlus/it#IT3200002L5">BBC Earth</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="FoxEast.us" site_id="21221">FOX 35 (WOFL-DT1) Orlando, FL</channel>
+
+  
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN.mx" site_id="espn_mexico">ESPN México</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN2.mx" site_id="espn_2_mexico">ESPN 2 México</channel>
+  <!-- <channel site="gatotv.com" lang="es" xmltv_id="ESPN2LatinAmerica.us@Mexico" site_id="espn_2_norte">ESPN 2 Norte</channel> -->
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN3.mx" site_id="espn_3_norte">ESPN 3 Norte</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN4.mx" site_id="espn_4_norte">ESPN 4 Norte</channel>
 </channels>
