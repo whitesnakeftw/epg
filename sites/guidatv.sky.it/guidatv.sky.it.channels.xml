@@ -8,6 +8,7 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="ComedyCentral.it" site_id="DTH#404">Comedy Central</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="DeAJunior.it" site_id="DTH#313">DeAJunior</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="DeAKids.it" site_id="DTH#460">DeAKids</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="DisneyJr.it" site_id="DTH#581">Disney Jr.</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="GamberoRosso.it" site_id="DTH#228">Gambero Rosso</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="History.it" site_id="DTH#513">History</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="Italia1.it" site_id="DTH#5459">Italia 1</channel>
@@ -26,11 +27,12 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaCollection.it" site_id="DTH#204">Sky Cinema Collection</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaComedy.it" site_id="DTH#30">Sky Cinema Comedy</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaDrama.it" site_id="DTH#769">Sky Cinema Drama</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaDue.it" site_id="DTH#564">Sky Cinema Due</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaStories.it" site_id="DTH#564">Sky Cinema Stories</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaFamily.it" site_id="DTH#255">Sky Cinema Family</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaRomance.it" site_id="DTH#231">Sky Cinema Romance</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaSuspense.it" site_id="DTH#47">Sky Cinema Suspense</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaUno.it" site_id="DTH#202">Sky Cinema Uno</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCollection.it" site_id="DTH#431">Sky Collection</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCrime.it" site_id="DTH#249">Sky Crime</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyDocumentaries.it" site_id="DTH#697">Sky Documentaries</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyInvestigation.it" site_id="DTH#686">Sky Investigation</channel>
@@ -47,6 +49,7 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport258.it" site_id="DTH#772">Sky Sport 258</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport259.it" site_id="DTH#613">Sky Sport 259</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportArena.it" site_id="DTH#24">Sky Sport Arena</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportBasket.it" site_id="DTH#764">Sky Sport Basket</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportCalcio.it" site_id="DTH#209">Sky Sport Calcio</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportF1.it" site_id="DTH#478">Sky Sport F1</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportGolf.it" site_id="DTH#768">Sky Sport Golf</channel>
@@ -54,10 +57,10 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMax.it" site_id="DTH#248">Sky Sport Max</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMix.it" site_id="DTH#579">Sky Sport Mix</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMotoGP.it" site_id="DTH#483">Sky Sport MotoGP</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportBasket.it" site_id="DTH#764">Sky Sport Basket</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportTennis.it" site_id="DTH#559">Sky Sport Tennis</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportUno.it" site_id="DTH#23">Sky Sport Uno</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyTG24.it" site_id="DTH#519">Sky TG24</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyUno+.it" site_id="DTH#432">Sky Uno +</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyUno.it" site_id="DTH#477">Sky Uno</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SuperTennis.it" site_id="DTH#5246">SuperTennis</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="TV8.it" site_id="DTH#260">TV8</channel>

@@ -2,8 +2,10 @@
 <channels>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyTG24.it" site_id="DTH#519">Sky TG24</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyUno.it" site_id="DTH#477">Sky Uno</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyUno+.it" site_id="DTH#432">Sky Uno +</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyArte.it" site_id="DTH#74">Sky Arte</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyAtlantic.it" site_id="DTH#226">Sky Atlantic</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCollection.it" site_id="DTH#431">Sky Collection</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCrime.it" site_id="DTH#249">Sky Crime</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyDocumentaries.it" site_id="DTH#697">Sky Documentaries</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyInvestigation.it" site_id="DTH#686">Sky Investigation</channel>
@@ -37,9 +39,9 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaCollection.it" site_id="DTH#204">Sky Cinema Collection</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaComedy.it" site_id="DTH#30">Sky Cinema Comedy</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaDrama.it" site_id="DTH#769">Sky Cinema Drama</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaDue.it" site_id="DTH#564">Sky Cinema Due</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaFamily.it" site_id="DTH#255">Sky Cinema Family</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaRomance.it" site_id="DTH#231">Sky Cinema Romance</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaStories.it" site_id="DTH#564">Sky Cinema Stories</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaSuspense.it" site_id="DTH#47">Sky Cinema Suspense</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkyCinemaUno.it" site_id="DTH#202">Sky Cinema Uno</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="cielo.it" site_id="DTH#120">cielo</channel>
@@ -54,6 +56,7 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="DeAKids.it" site_id="DTH#460">DeAKids</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="Nickelodeon.it" site_id="DTH#320">Nickelodeon</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="NickJr.it" site_id="DTH#424">Nick Jr</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="DisneyJr.it" site_id="DTH#581">Disney Jr.</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="LA7.it" site_id="DTH#407">LA7</channel>
   <channel site="raiplay.it" lang="it" xmltv_id="Rai1.it" site_id="rai-1">RAI 1</channel>
   <channel site="raiplay.it" lang="it" xmltv_id="Rai2.it" site_id="rai-2">RAI 2</channel>
@@ -312,6 +315,18 @@
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport8.hr" site_id="282235944385">Arenasport 8</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport9.hr" site_id="282237992142">Arenasport 9</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="ArenaSport10.hr" site_id="282237992144">Arenasport 10</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub1.hr" site_id="696524328080">SK 1</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub2.hr" site_id="696528936296">SK 2</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub3.hr" site_id="696530472226">SK 3</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub4.hr" site_id="696530983951">SK 4</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub5.hr" site_id="696521768448">SK 5</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub6.hr" site_id="696524328149">SK 6</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub7.hr" site_id="696529959967">SK 7</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub8.hr" site_id="696523816253">SK 8</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub9.hr" site_id="696529447952">SK 9</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub10.hr" site_id="696529448021">SK 10</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub11.hr" site_id="704057896278">SK 11</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="SportKlub12.hr" site_id="708158504296">SK 12</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="BBCEarth.hr" site_id="276770344361">BBC Earth</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="NatGeoWild.hr" site_id="276770344352">Nat Geo Wild</channel>
 
@@ -425,4 +440,5 @@
   <!-- <channel site="gatotv.com" lang="es" xmltv_id="ESPN2LatinAmerica.us@Mexico" site_id="espn_2_norte">ESPN 2 Norte</channel> -->
   <channel site="gatotv.com" lang="es" xmltv_id="ESPN3.mx" site_id="espn_3_norte">ESPN 3 Norte</channel>
   <channel site="gatotv.com" lang="es" xmltv_id="ESPN4.mx" site_id="espn_4_norte">ESPN 4 Norte</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="PBSNature.us" site_id="640a64bd73e013000893d4e0">PBS Nature</channel>
 </channels>
